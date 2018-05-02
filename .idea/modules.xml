@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/L2T_Server.iml" filepath="$PROJECT_DIR$/L2T_Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data/data.iml" filepath="$PROJECT_DIR$/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/data_classic/data_classic.iml" filepath="$PROJECT_DIR$/data_classic/data_classic.iml" />
     </modules>
   </component>
 </project>

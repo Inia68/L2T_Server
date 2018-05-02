@@ -1,8 +1,5 @@
 ﻿<list>
     <currency itemId="57" /> <!-- Adena -->
-    <currency itemId="4357" /> <!-- Silver Shilen -->
-    <currency itemId="4355" /> <!-- Blue Eva -->
-    <currency itemId="4358" /> <!-- Bloody Pa'agrio -->
     <subEvent eventName="CreatureInvasion" startBypass="start_invasion" endBypass="end_event" />
     <event name="1vs1" description="Little PvP Event" location="Giran Arena" arenaZones="giran_pvp_battle,"
            peaceZones="giran_pvp_peace1,giran_pvp_peace2,giran_pvp_peace3,giran_pvp_peace4"

@@ -300,7 +300,7 @@ public final class Core<T extends MMOClient<?>> extends Thread
 			try
 			{
 				result = con.read(buf);
-				System.out.println(result);
+				//System.out.println(result);
 			}
 			catch (IOException e)
 			{

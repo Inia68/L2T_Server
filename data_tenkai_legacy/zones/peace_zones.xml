@@ -790,19 +790,6 @@
         <node X="155456" Y="-123772" />
         <node X="152140" Y="-124528" />
     </zone>
-    <zone name="hellbound_peace_01" type="PeaceZone" shape="NPoly" minZ="-4404" maxZ="596"> <!-- [19_25] -->
-        <node X="-12331" Y="235972" />
-        <node X="-11251" Y="235986" />
-        <node X="-10341" Y="237021" />
-        <node X="-11422" Y="237583" />
-        <node X="-12549" Y="237095" />
-    </zone>
-    <zone name="hellbound_peace_02" type="PeaceZone" shape="NPoly" minZ="-4040" maxZ="960"> <!-- [19_25] -->
-        <node X="-22884" Y="247520" />
-        <node X="-19138" Y="247721" />
-        <node X="-19276" Y="251174" />
-        <node X="-22955" Y="251212" />
-    </zone>
     <zone name="kamael_town_peace_01" type="PeaceZone" shape="NPoly" minZ="-476" maxZ="3524"> <!-- [16_19] -->
         <node X="-121018" Y="41512" />
         <node X="-110806" Y="40264" />

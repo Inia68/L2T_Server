@@ -1090,15 +1090,6 @@
         <spawn X="8273" Y="-21303" Z="-3272" isPvP="true" />
         <spawn X="44018" Y="-48558" Z="-800" isPvP="true" />
     </zone>
-    <!-- (vertices, min Z & Max Z are estimated) -->
-    <zone name="Hellbound (Town Zone)" id="40102" type="TownZone" shape="NPoly" minZ="-30000" maxZ="30000">
-        <stat name="townId" val="21" />
-        <node X="-32768" Y="229376" />
-        <node X="32768" Y="229376" />
-        <node X="32768" Y="262143" />
-        <node X="-32768" Y="262143" />
-        <spawn X="-16341" Y="209285" Z="-3665" />
-    </zone>
     <zone name="Ancient City of Arcan" id="60010" type="TownZone" shape="NPoly" minZ="-1150" maxZ="420">
         <stat name="townId" val="37" />
         <node X="207193" Y="90956" />

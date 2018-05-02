@@ -5,7 +5,6 @@
         <item id="2373" /> <!-- Eldritch Staff -->
         <item id="754" /> <!-- Red Sunset Staff -->
         <item id="744" /> <!-- Staff of Sentinel -->
-        <item id="1304" /> <!-- Conjuror's Staff -->
         <item id="9" /> <!-- Cedar Staff -->
         <item id="310" /> <!-- Relic of the Saints -->
         <item id="309" /> <!-- Tears of Eva -->
@@ -20,14 +19,10 @@
         <item id="153" /> <!-- Sigil -->
         <item id="1511" /> <!-- Silversmith Hammer -->
         <item id="154" /> <!-- Dwarven Mace -->
-        <item id="1300" /> <!-- Apprentice's Rod -->
-        <item id="1301" /> <!-- Big Hammer -->
         <item id="2501" /> <!-- Bone Club -->
         <item id="155" /> <!-- Flanged Mace -->
         <item id="87" /> <!-- Iron Hammer -->
-        <item id="1302" /> <!-- Bec de Corbin -->
         <item id="15" /> <!-- Short Spear -->
-        <item id="3026" /> <!-- Talins Spear -->
         <item id="16" /> <!-- Great Spear -->
         <item id="253" /> <!-- Spiked Gloves -->
         <item id="254" /> <!-- Iron Gloves -->
@@ -37,11 +32,9 @@
         <item id="257" /> <!-- Viper Fang -->
         <item id="13" /> <!-- Short Bow -->
         <item id="14" /> <!-- Bow -->
-        <item id="3028" /> <!-- Crescent Moon Bow -->
         <item id="271" /> <!-- Hunting Bow -->
         <item id="272" /> <!-- Forest Bow -->
         <item id="273" /> <!-- Compound Bow -->
-        <item id="10" /> <!-- Dagger -->
         <item id="11" /> <!-- Bone Dagger -->
         <item id="215" /> <!-- Doom Dagger -->
         <item id="12" /> <!-- Knife -->
@@ -53,10 +46,7 @@
         <item id="218" /> <!-- Throwing Knife -->
         <item id="219" /> <!-- Sword Breaker -->
         <item id="1333" /> <!-- Brandish -->
-        <item id="3027" /> <!-- Old Knight Sword -->
         <item id="5284" /> <!-- Zweihander -->
-        <item id="1298" /> <!-- Caliburs -->
-        <item id="1296" /> <!-- Gladius -->
         <item id="2" /> <!-- Long Sword -->
         <item id="120" /> <!-- Sword of Reflection -->
         <item id="121" /> <!-- Sword of Watershadow -->
@@ -892,62 +882,62 @@
         <item id="16158" /> <!-- Eternal Core Dual Sword -->
     </shop>
     <shop id="50006" npcId="40003">
-        <item id="18103" price="329069000" /> <!-- Unidentified Requiem Shaper -->
-        <item id="18104" price="329069000" /> <!-- Unidentified Requiem Cutter -->
-        <item id="18105" price="329069000" /> <!-- Unidentified Requiem Slasher -->
-        <item id="18106" price="329069000" /> <!-- Unidentified Requiem Avenger -->
-        <item id="18107" price="329069000" /> <!-- Unidentified Requiem Fighter -->
-        <item id="18108" price="329069000" /> <!-- Unidentified Requiem Stormer -->
-        <item id="18109" price="329069000" /> <!-- Unidentified Requiem Thrower -->
-        <item id="18110" price="329069000" /> <!-- Unidentified Requiem Shooter -->
-        <item id="18111" price="329069000" /> <!-- Unidentified Requiem Buster -->
-        <item id="18112" price="329069000" /> <!-- Unidentified Requiem Caster -->
-        <item id="18113" price="329069000" /> <!-- Unidentified Requiem Retributer -->
-        <item id="18114" price="329069000" /> <!-- Unidentified Requiem Dual Sword -->
-        <item id="18115" price="329069000" /> <!-- Unidentified Requiem Dual Dagger -->
-        <item id="18116" price="329069000" /> <!-- Unidentified Requiem Dual Blunt Weapon -->
-        <item id="18137" price="427789000" /> <!-- Unidentified Apocalypse Shaper -->
-        <item id="18138" price="427789000" /> <!-- Unidentified Apocalypse Cutter -->
-        <item id="18139" price="427789000" /> <!-- Unidentified Apocalypse Slasher -->
-        <item id="18140" price="427789000" /> <!-- Unidentified Apocalypse Avenger -->
-        <item id="18141" price="427789000" /> <!-- Unidentified Apocalypse Fighter -->
-        <item id="18142" price="427789000" /> <!-- Unidentified Apocalypse Stormer -->
-        <item id="18143" price="427789000" /> <!-- Unidentified Apocalypse Thrower -->
-        <item id="18144" price="427789000" /> <!-- Unidentified Apocalypse Shooter -->
-        <item id="18145" price="427789000" /> <!-- Unidentified Apocalypse Buster -->
-        <item id="18146" price="427789000" /> <!-- Unidentified Apocalypse Caster -->
-        <item id="18147" price="427789000" /> <!-- Unidentified Apocalypse Retributer -->
-        <item id="18148" price="427789000" /> <!-- Unidentified Apocalypse Dual sword -->
-        <item id="18149" price="427789000" /> <!-- Unidentified Apocalypse Dual Dagger -->
-        <item id="18150" price="427789000" /> <!-- Unidentified Apocalypse Dual Blunt Weapon -->
-        <item id="18171" price="556126000" /> <!-- Unidentified Specter Shaper -->
-        <item id="18172" price="556126000" /> <!-- Unidentified Specter Cutter -->
-        <item id="18173" price="556126000" /> <!-- Unidentified Specter Slasher -->
-        <item id="18174" price="556126000" /> <!-- Unidentified Specter Avenger -->
-        <item id="18175" price="556126000" /> <!-- Unidentified Specter Fighter -->
-        <item id="18176" price="556126000" /> <!-- Unidentified Specter Stormer -->
-        <item id="18177" price="556126000" /> <!-- Unidentified Specter Thrower -->
-        <item id="18178" price="556126000" /> <!-- Unidentified Specter Shooter -->
-        <item id="18179" price="556126000" /> <!-- Unidentified Specter Buster -->
-        <item id="18180" price="556126000" /> <!-- Unidentified Specter Caster -->
-        <item id="18181" price="556126000" /> <!-- Unidentified Specter Retributer -->
-        <item id="18182" price="556126000" /> <!-- Unidentified Specter Dual Sword -->
-        <item id="18183" price="556126000" /> <!-- Unidentified Specter Dual Dagger -->
-        <item id="18184" price="556126000" /> <!-- Unidentified Specter Dual Blunt Weapon -->
-        <item id="18205" price="722964000" /> <!-- Unidentified Amaranthine Shaper -->
-        <item id="18206" price="722964000" /> <!-- Unidentified Amaranthine Cutter -->
-        <item id="18207" price="722964000" /> <!-- Unidentified Amaranthine Slasher -->
-        <item id="18208" price="722964000" /> <!-- Unidentified Amaranthine Avenger -->
-        <item id="18209" price="722964000" /> <!-- Unidentified Amaranthine Fighter -->
-        <item id="18210" price="722964000" /> <!-- Unidentified Amaranthine Stormer -->
-        <item id="18211" price="722964000" /> <!-- Unidentified Amaranthine Thrower -->
-        <item id="18212" price="722964000" /> <!-- Unidentified Amaranthine Shooter -->
-        <item id="18213" price="722964000" /> <!-- Unidentified Amaranthine Buster -->
-        <item id="18214" price="722964000" /> <!-- Unidentified Amaranthine Caster -->
-        <item id="18215" price="722964000" /> <!-- Unidentified Amaranthine Retributer -->
-        <item id="18216" price="722964000" /> <!-- Unidentified Amaranthine Dual Sword -->
-        <item id="18217" price="722964000" /> <!-- Unidentified Amaranthine Dual Dagger -->
-        <item id="18218" price="722964000" /> <!-- Unidentified Amaranthine Dual Blunt Weapon -->
+        <item id="18103" /> <!-- Unidentified Requiem Shaper -->
+        <item id="18104" /> <!-- Unidentified Requiem Cutter -->
+        <item id="18105" /> <!-- Unidentified Requiem Slasher -->
+        <item id="18106" /> <!-- Unidentified Requiem Avenger -->
+        <item id="18107" /> <!-- Unidentified Requiem Fighter -->
+        <item id="18108" /> <!-- Unidentified Requiem Stormer -->
+        <item id="18109" /> <!-- Unidentified Requiem Thrower -->
+        <item id="18110" /> <!-- Unidentified Requiem Shooter -->
+        <item id="18111" /> <!-- Unidentified Requiem Buster -->
+        <item id="18112" /> <!-- Unidentified Requiem Caster -->
+        <item id="18113" /> <!-- Unidentified Requiem Retributer -->
+        <item id="18114" /> <!-- Unidentified Requiem Dual Sword -->
+        <item id="18115" /> <!-- Unidentified Requiem Dual Dagger -->
+        <item id="18116" /> <!-- Unidentified Requiem Dual Blunt Weapon -->
+        <item id="18137" /> <!-- Unidentified Apocalypse Shaper -->
+        <item id="18138" /> <!-- Unidentified Apocalypse Cutter -->
+        <item id="18139" /> <!-- Unidentified Apocalypse Slasher -->
+        <item id="18140" /> <!-- Unidentified Apocalypse Avenger -->
+        <item id="18141" /> <!-- Unidentified Apocalypse Fighter -->
+        <item id="18142" /> <!-- Unidentified Apocalypse Stormer -->
+        <item id="18143" /> <!-- Unidentified Apocalypse Thrower -->
+        <item id="18144" /> <!-- Unidentified Apocalypse Shooter -->
+        <item id="18145" /> <!-- Unidentified Apocalypse Buster -->
+        <item id="18146" /> <!-- Unidentified Apocalypse Caster -->
+        <item id="18147" /> <!-- Unidentified Apocalypse Retributer -->
+        <item id="18148" /> <!-- Unidentified Apocalypse Dual sword -->
+        <item id="18149" /> <!-- Unidentified Apocalypse Dual Dagger -->
+        <item id="18150" /> <!-- Unidentified Apocalypse Dual Blunt Weapon -->
+        <item id="18171" /> <!-- Unidentified Specter Shaper -->
+        <item id="18172" /> <!-- Unidentified Specter Cutter -->
+        <item id="18173" /> <!-- Unidentified Specter Slasher -->
+        <item id="18174" /> <!-- Unidentified Specter Avenger -->
+        <item id="18175" /> <!-- Unidentified Specter Fighter -->
+        <item id="18176" /> <!-- Unidentified Specter Stormer -->
+        <item id="18177" /> <!-- Unidentified Specter Thrower -->
+        <item id="18178" /> <!-- Unidentified Specter Shooter -->
+        <item id="18179" /> <!-- Unidentified Specter Buster -->
+        <item id="18180" /> <!-- Unidentified Specter Caster -->
+        <item id="18181" /> <!-- Unidentified Specter Retributer -->
+        <item id="18182" /> <!-- Unidentified Specter Dual Sword -->
+        <item id="18183" /> <!-- Unidentified Specter Dual Dagger -->
+        <item id="18184" /> <!-- Unidentified Specter Dual Blunt Weapon -->
+        <item id="18205" /> <!-- Unidentified Amaranthine Shaper -->
+        <item id="18206" /> <!-- Unidentified Amaranthine Cutter -->
+        <item id="18207" /> <!-- Unidentified Amaranthine Slasher -->
+        <item id="18208" /> <!-- Unidentified Amaranthine Avenger -->
+        <item id="18209" /> <!-- Unidentified Amaranthine Fighter -->
+        <item id="18210" /> <!-- Unidentified Amaranthine Stormer -->
+        <item id="18211" /> <!-- Unidentified Amaranthine Thrower -->
+        <item id="18212" /> <!-- Unidentified Amaranthine Shooter -->
+        <item id="18213" /> <!-- Unidentified Amaranthine Buster -->
+        <item id="18214" /> <!-- Unidentified Amaranthine Caster -->
+        <item id="18215" /> <!-- Unidentified Amaranthine Retributer -->
+        <item id="18216" /> <!-- Unidentified Amaranthine Dual Sword -->
+        <item id="18217" /> <!-- Unidentified Amaranthine Dual Dagger -->
+        <item id="18218" /> <!-- Unidentified Amaranthine Dual Blunt Weapon -->
     </shop>
     <shop id="50007" npcId="40003">
         <item id="23" /> <!-- Wooden Breastplate -->
@@ -1332,86 +1322,86 @@
         <item id="10514" /> <!-- Striped Mithril Shirt(CP) -->
     </shop>
     <shop id="50013" npcId="40003">
-        <item id="18117" price="40171000" /> <!-- Unidentified Immortal Helmet - Heavy -->
-        <item id="18118" price="107124000" /> <!-- Unidentified Immortal Breastplate - Heavy -->
-        <item id="18119" price="66954000" /> <!-- Unidentified Immortal Gaiters - Heavy -->
-        <item id="18120" price="26781000" /> <!-- Unidentified Immortal Gauntlet - Heavy -->
-        <item id="18121" price="26781000" /> <!-- Unidentified Immortal Boots - Heavy -->
-        <item id="18122" price="28120000" /> <!-- Unidentified Immortal Shield - Heavy -->
-        <item id="18123" price="40171000" /> <!-- Unidentified Immortal Leather Helmet - Light -->
-        <item id="18124" price="80344000" /> <!-- Unidentified Immortal Leather Armor - Light -->
-        <item id="18125" price="50214000" /> <!-- Unidentified Immortal Leather Leggings - Light -->
-        <item id="18126" price="26781000" /> <!-- Unidentified Immortal Leather Gloves - Light -->
-        <item id="18127" price="26781000" /> <!-- Unidentified Immortal Leather Boots - Light -->
-        <item id="18128" price="40171000" /> <!-- Unidentified Immortal Circlet - Robe -->
-        <item id="18129" price="80344000" /> <!-- Unidentified Immortal Tunic - Robe -->
-        <item id="18130" price="50214000" /> <!-- Unidentified Immortal Stockings - Robe -->
-        <item id="18131" price="26781000" /> <!-- Unidentified Immortal Gloves - Robe -->
-        <item id="18132" price="26781000" /> <!-- Unidentified Immortal Shoes - Robe -->
-        <item id="18133" price="28120000" /> <!-- Unidentified Immortal Sigil - Robe -->
-        <item id="18151" price="52222000" /> <!-- Unidentified Twilight Helmet - Heavy -->
-        <item id="18152" price="139261000" /> <!-- Unidentified Twilight Breastplate - Heavy -->
-        <item id="18153" price="87040000" /> <!-- Unidentified Twilight Gaiters - Heavy -->
-        <item id="18154" price="34815000" /> <!-- Unidentified Twilight Gauntlet - Heavy -->
-        <item id="18155" price="34815000" /> <!-- Unidentified Twilight Boots - Heavy -->
-        <item id="18156" price="36556000" /> <!-- Unidentified Twilight Shield - Heavy -->
-        <item id="18157" price="52222000" /> <!-- Unidentified Twilight Leather Helmet - Light -->
-        <item id="18158" price="104447000" /> <!-- Unidentified Twilight Leather Armor - Light -->
-        <item id="18159" price="65278000" /> <!-- Unidentified Twilight Leather Legging - Light -->
-        <item id="18160" price="34815000" /> <!-- Unidentified Twilight Leather Gloves - Light -->
-        <item id="18161" price="34815000" /> <!-- Unidentified Twilight Leather Boots - Light -->
-        <item id="18162" price="52222000" /> <!-- Unidentified Twilight Circlet - Robe -->
-        <item id="18163" price="104447000" /> <!-- Unidentified Twilight Tunic - Robe -->
-        <item id="18164" price="65278000" /> <!-- Unidentified Twilight Stockings - Robe -->
-        <item id="18165" price="34815000" /> <!-- Unidentified Twilight Gloves - Robe -->
-        <item id="18166" price="34815000" /> <!-- Unidentified Twilight Shoes - Robe -->
-        <item id="18167" price="36556000" /> <!-- Unidentified Twilight Sigil - Robe -->
-        <item id="18185" price="67889000" /> <!-- Unidentified Seraph Helmet - Heavy -->
-        <item id="18186" price="181040000" /> <!-- Unidentified Seraph Breastplate - Heavy -->
-        <item id="18187" price="113152000" /> <!-- Unidentified Seraph Gaiters - Heavy -->
-        <item id="18188" price="45260000" /> <!-- Unidentified Seraph Gauntlet - Heavy -->
-        <item id="18189" price="45260000" /> <!-- Unidentified Seraph Boots - Heavy -->
-        <item id="18190" price="47523000" /> <!-- Unidentified Seraph Shield - Heavy -->
-        <item id="18191" price="67889000" /> <!-- Unidentified Seraph Leather Helmet - Light -->
-        <item id="18192" price="135781000" /> <!-- Unidentified Seraph Leather Armor - Light -->
-        <item id="18193" price="84862000" /> <!-- Unidentified Seraph Leather Leggings - Light -->
-        <item id="18194" price="45260000" /> <!-- Unidentified Seraph Leather Gloves - Light -->
-        <item id="18195" price="45260000" /> <!-- Unidentified Seraph Leather Boots - Light -->
-        <item id="18196" price="67889000" /> <!-- Unidentified Seraph Circlet - Robe -->
-        <item id="18197" price="135781000" /> <!-- Unidentified Seraph Tunic - Robe -->
-        <item id="18198" price="84862000" /> <!-- Unidentified Seraph Stockings - Robe -->
-        <item id="18199" price="45260000" /> <!-- Unidentified Seraph Gloves - Robe -->
-        <item id="18200" price="45260000" /> <!-- Unidentified Seraph Shoes - Robe -->
-        <item id="18201" price="47523000" /> <!-- Unidentified Seraph Sigil - Robe -->
-        <item id="18219" price="88256000" /> <!-- Unidentified Eternal Helmet - Heavy -->
-        <item id="18220" price="235352000" /> <!-- Unidentified Eternal Breastplate - Heavy -->
-        <item id="18221" price="147098000" /> <!-- Unidentified Eternal Gaiters - Heavy -->
-        <item id="18222" price="58838000" /> <!-- Unidentified Eternal Gauntlet - Heavy -->
-        <item id="18223" price="58838000" /> <!-- Unidentified Eternal Boots - Heavy -->
-        <item id="18224" price="61780000" /> <!-- Unidentified Eternal Shield - Heavy -->
-        <item id="18225" price="88256000" /> <!-- Unidentified Eternal Leather Helmet - Light -->
-        <item id="18226" price="176516000" /> <!-- Unidentified Eternal Leather Armor - Light -->
-        <item id="18227" price="110320000" /> <!-- Unidentified Eternal Leather Leggings - Light -->
-        <item id="18228" price="58838000" /> <!-- Unidentified Eternal Leather Gloves - Light -->
-        <item id="18229" price="58838000" /> <!-- Unidentified Eternal Leather Boots - Light -->
-        <item id="18230" price="88256000" /> <!-- Unidentified Eternal Circlet - Robe -->
-        <item id="18231" price="176516000" /> <!-- Unidentified Eternal Tunic - Robe -->
-        <item id="18232" price="110320000" /> <!-- Unidentified Eternal Stockings - Robe -->
-        <item id="18233" price="58838000" /> <!-- Unidentified Eternal Gloves - Robe -->
-        <item id="18234" price="58838000" /> <!-- Unidentified Eternal Shoes - Robe -->
-        <item id="18235" price="61780000" /> <!-- Unidentified Eternal Sigil - Robe -->
-        <item id="19470" price="22781000" /> <!-- Immortal Belt -->
-        <item id="19471" price="22781000" /> <!-- Immortal Bracelet -->
-        <item id="19472" price="22781000" /> <!-- Immortal Shirt -->
-        <item id="19473" price="29615000" /> <!-- Twilight Belt -->
-        <item id="19474" price="29615000" /> <!-- Twilight Bracelet -->
-        <item id="19475" price="29615000" /> <!-- Twilight Shirt -->
-        <item id="19476" price="38500000" /> <!-- Seraph Belt -->
-        <item id="19477" price="38500000" /> <!-- Seraph Bracelet -->
-        <item id="19478" price="38500000" /> <!-- Seraph Shirt -->
-        <item id="19479" price="50050000" /> <!-- Eternal Belt -->
-        <item id="19480" price="50050000" /> <!-- Eternal Bracelet -->
-        <item id="19481" price="50050000" /> <!-- Eternal Shirt -->
+        <item id="18117" /> <!-- Unidentified Immortal Helmet - Heavy -->
+        <item id="18118" /> <!-- Unidentified Immortal Breastplate - Heavy -->
+        <item id="18119" /> <!-- Unidentified Immortal Gaiters - Heavy -->
+        <item id="18120" /> <!-- Unidentified Immortal Gauntlet - Heavy -->
+        <item id="18121" /> <!-- Unidentified Immortal Boots - Heavy -->
+        <item id="18122" /> <!-- Unidentified Immortal Shield - Heavy -->
+        <item id="18123" /> <!-- Unidentified Immortal Leather Helmet - Light -->
+        <item id="18124" /> <!-- Unidentified Immortal Leather Armor - Light -->
+        <item id="18125" /> <!-- Unidentified Immortal Leather Leggings - Light -->
+        <item id="18126" /> <!-- Unidentified Immortal Leather Gloves - Light -->
+        <item id="18127" /> <!-- Unidentified Immortal Leather Boots - Light -->
+        <item id="18128" /> <!-- Unidentified Immortal Circlet - Robe -->
+        <item id="18129" /> <!-- Unidentified Immortal Tunic - Robe -->
+        <item id="18130" /> <!-- Unidentified Immortal Stockings - Robe -->
+        <item id="18131" /> <!-- Unidentified Immortal Gloves - Robe -->
+        <item id="18132" /> <!-- Unidentified Immortal Shoes - Robe -->
+        <item id="18133" /> <!-- Unidentified Immortal Sigil - Robe -->
+        <item id="18151" /> <!-- Unidentified Twilight Helmet - Heavy -->
+        <item id="18152" /> <!-- Unidentified Twilight Breastplate - Heavy -->
+        <item id="18153" /> <!-- Unidentified Twilight Gaiters - Heavy -->
+        <item id="18154" /> <!-- Unidentified Twilight Gauntlet - Heavy -->
+        <item id="18155" /> <!-- Unidentified Twilight Boots - Heavy -->
+        <item id="18156" /> <!-- Unidentified Twilight Shield - Heavy -->
+        <item id="18157" /> <!-- Unidentified Twilight Leather Helmet - Light -->
+        <item id="18158" /> <!-- Unidentified Twilight Leather Armor - Light -->
+        <item id="18159" /> <!-- Unidentified Twilight Leather Legging - Light -->
+        <item id="18160" /> <!-- Unidentified Twilight Leather Gloves - Light -->
+        <item id="18161" /> <!-- Unidentified Twilight Leather Boots - Light -->
+        <item id="18162" /> <!-- Unidentified Twilight Circlet - Robe -->
+        <item id="18163" /> <!-- Unidentified Twilight Tunic - Robe -->
+        <item id="18164" /> <!-- Unidentified Twilight Stockings - Robe -->
+        <item id="18165" /> <!-- Unidentified Twilight Gloves - Robe -->
+        <item id="18166" /> <!-- Unidentified Twilight Shoes - Robe -->
+        <item id="18167" /> <!-- Unidentified Twilight Sigil - Robe -->
+        <item id="18185" /> <!-- Unidentified Seraph Helmet - Heavy -->
+        <item id="18186" /> <!-- Unidentified Seraph Breastplate - Heavy -->
+        <item id="18187" /> <!-- Unidentified Seraph Gaiters - Heavy -->
+        <item id="18188" /> <!-- Unidentified Seraph Gauntlet - Heavy -->
+        <item id="18189" /> <!-- Unidentified Seraph Boots - Heavy -->
+        <item id="18190" /> <!-- Unidentified Seraph Shield - Heavy -->
+        <item id="18191" /> <!-- Unidentified Seraph Leather Helmet - Light -->
+        <item id="18192" /> <!-- Unidentified Seraph Leather Armor - Light -->
+        <item id="18193" /> <!-- Unidentified Seraph Leather Leggings - Light -->
+        <item id="18194" /> <!-- Unidentified Seraph Leather Gloves - Light -->
+        <item id="18195" /> <!-- Unidentified Seraph Leather Boots - Light -->
+        <item id="18196" /> <!-- Unidentified Seraph Circlet - Robe -->
+        <item id="18197" /> <!-- Unidentified Seraph Tunic - Robe -->
+        <item id="18198" /> <!-- Unidentified Seraph Stockings - Robe -->
+        <item id="18199" /> <!-- Unidentified Seraph Gloves - Robe -->
+        <item id="18200" /> <!-- Unidentified Seraph Shoes - Robe -->
+        <item id="18201" /> <!-- Unidentified Seraph Sigil - Robe -->
+        <item id="18219" /> <!-- Unidentified Eternal Helmet - Heavy -->
+        <item id="18220" /> <!-- Unidentified Eternal Breastplate - Heavy -->
+        <item id="18221" /> <!-- Unidentified Eternal Gaiters - Heavy -->
+        <item id="18222" /> <!-- Unidentified Eternal Gauntlet - Heavy -->
+        <item id="18223" /> <!-- Unidentified Eternal Boots - Heavy -->
+        <item id="18224" /> <!-- Unidentified Eternal Shield - Heavy -->
+        <item id="18225" /> <!-- Unidentified Eternal Leather Helmet - Light -->
+        <item id="18226" /> <!-- Unidentified Eternal Leather Armor - Light -->
+        <item id="18227" /> <!-- Unidentified Eternal Leather Leggings - Light -->
+        <item id="18228" /> <!-- Unidentified Eternal Leather Gloves - Light -->
+        <item id="18229" /> <!-- Unidentified Eternal Leather Boots - Light -->
+        <item id="18230" /> <!-- Unidentified Eternal Circlet - Robe -->
+        <item id="18231" /> <!-- Unidentified Eternal Tunic - Robe -->
+        <item id="18232" /> <!-- Unidentified Eternal Stockings - Robe -->
+        <item id="18233" /> <!-- Unidentified Eternal Gloves - Robe -->
+        <item id="18234" /> <!-- Unidentified Eternal Shoes - Robe -->
+        <item id="18235" /> <!-- Unidentified Eternal Sigil - Robe -->
+        <item id="19470" /> <!-- Immortal Belt -->
+        <item id="19471" /> <!-- Immortal Bracelet -->
+        <item id="19472" /> <!-- Immortal Shirt -->
+        <item id="19473" /> <!-- Twilight Belt -->
+        <item id="19474" /> <!-- Twilight Bracelet -->
+        <item id="19475" /> <!-- Twilight Shirt -->
+        <item id="19476" /> <!-- Seraph Belt -->
+        <item id="19477" /> <!-- Seraph Bracelet -->
+        <item id="19478" /> <!-- Seraph Shirt -->
+        <item id="19479" /> <!-- Eternal Belt -->
+        <item id="19480" /> <!-- Eternal Bracelet -->
+        <item id="19481" /> <!-- Eternal Shirt -->
     </shop>
     <shop id="50014" npcId="40003">
         <item id="118" /> <!-- Necklace of Magic -->
@@ -1549,18 +1539,18 @@
         <item id="15719" /> <!-- Elegia Necklace -->
     </shop>
     <shop id="50020" npcId="40003">
-        <item id="18134" price="34872000" /> <!-- Unidentified Immortal Necklace -->
-        <item id="18135" price="26154000" /> <!-- Unidentified Immortal Earring -->
-        <item id="18136" price="17435000" /> <!-- Unidentified Immortal Ring -->
-        <item id="18168" price="45334000" /> <!-- Unidentified Twilight Necklace -->
-        <item id="18169" price="34000000" /> <!-- Unidentified Twilight Earring -->
-        <item id="18170" price="22666000" /> <!-- Unidentified Twilight Ring -->
-        <item id="18202" price="58934000" /> <!-- Unidentified Seraph Necklace -->
-        <item id="18203" price="44200000" /> <!-- Unidentified Seraph Earring -->
-        <item id="18204" price="29465000" /> <!-- Unidentified Seraph Ring -->
-        <item id="18236" price="76614000" /> <!-- Unidentified Eternal Necklace -->
-        <item id="18237" price="57460000" /> <!-- Unidentified Eternal Earring -->
-        <item id="18238" price="38305000" /> <!-- Unidentified Eternal Ring -->
+        <item id="18134" /> <!-- Unidentified Immortal Necklace -->
+        <item id="18135" /> <!-- Unidentified Immortal Earring -->
+        <item id="18136" /> <!-- Unidentified Immortal Ring -->
+        <item id="18168" /> <!-- Unidentified Twilight Necklace -->
+        <item id="18169" /> <!-- Unidentified Twilight Earring -->
+        <item id="18170" /> <!-- Unidentified Twilight Ring -->
+        <item id="18202" /> <!-- Unidentified Seraph Necklace -->
+        <item id="18203" /> <!-- Unidentified Seraph Earring -->
+        <item id="18204" /> <!-- Unidentified Seraph Ring -->
+        <item id="18236" /> <!-- Unidentified Eternal Necklace -->
+        <item id="18237" /> <!-- Unidentified Eternal Earring -->
+        <item id="18238" /> <!-- Unidentified Eternal Ring -->
     </shop>
     <shop id="50021" npcId="40003">
         <item id="1458" /> <!-- Crystal (D-Grade) -->
@@ -1568,7 +1558,7 @@
         <item id="1460" /> <!-- Crystal (B-Grade) -->
         <item id="1461" /> <!-- Crystal (A-Grade) -->
         <item id="1462" /> <!-- Crystal (S-Grade) -->
-        <item id="17371" price="37561" /> <!-- Crystal (R-Grade) -->
+        <item id="17371" /> <!-- Crystal (R-Grade) -->
         <item id="1785" /> <!-- Soul Ore -->
         <item id="3031" /> <!-- Spirit Ore -->
         <item id="2508" /> <!-- Cursed Bone -->
@@ -1580,12 +1570,12 @@
         <item id="5589" /> <!-- Momentum Stone -->
         <item id="8615" /> <!-- Summoning Crystal -->
         <item id="8873" /> <!-- Phoenix Blood -->
-        <item id="2130" /> <!-- Gemstone D -->
-        <item id="2131" /> <!-- Gemstone C -->
-        <item id="2132" /> <!-- Gemstone B -->
-        <item id="2133" /> <!-- Gemstone A -->
-        <item id="2134" /> <!-- Gemstone S -->
-        <item id="19440" price="350000" /> <!-- Gemstone R -->
+        <item id="2130" price="4" /> <!-- Gemstone D -->
+        <item id="2131" price="8" /> <!-- Gemstone C -->
+        <item id="2132" price="14" /> <!-- Gemstone B -->
+        <item id="2133" price="24" /> <!-- Gemstone A -->
+        <item id="2134" price="24" /> <!-- Gemstone S -->
+        <item id="19440" price="76" /> <!-- Gemstone R -->
         <item id="8594" /> <!-- Scroll: Recovery (No Grade) -->
         <item id="8595" /> <!-- Scroll: Recovery (Grade D) -->
         <item id="8596" /> <!-- Scroll: Recovery (Grade C) -->
@@ -1596,58 +1586,54 @@
         <item id="737" /> <!-- Scroll of Resurrection -->
         <item id="1829" /> <!-- Scroll of Escape: Clan Hall -->
         <item id="1830" /> <!-- Scroll of Escape: Castle -->
-        <item id="36550" /> <!-- Weapon Fragment (Top-grade) -->
-        <item id="36565" /> <!-- Exquisite Synthetic Cokes -->
-        <item id="36545" /> <!-- Durandil Wire -->
-        <item id="35563" /> <!-- Giant's Energy -->
     </shop>
     <shop id="50022" npcId="40003">
-        <item id="17" /> <!-- Wooden Arrow -->
-        <item id="1341" /> <!-- Bone Arrow -->
-        <item id="1342" /> <!-- Steel Arrow -->
-        <item id="1343" /> <!-- Silver Arrow -->
-        <item id="1344" /> <!-- Mithril Arrow -->
-        <item id="1345" /> <!-- Shining Arrow -->
-        <item id="18550" price="20" /> <!-- Orichalcum Arrow -->
-        <item id="9632" /> <!-- Wooden Bolt -->
-        <item id="9633" /> <!-- Bone Bolt -->
-        <item id="9634" /> <!-- Steel Bolt -->
-        <item id="9635" /> <!-- Silver Bolt -->
-        <item id="9636" /> <!-- Mithril Bolt -->
-        <item id="9637" /> <!-- Shining Bolt -->
-        <item id="19443" price="20" /> <!-- Orichalcum Bolt -->
+        <item id="17" price="1" /> <!-- Wooden Arrow -->
+        <item id="1341" price="1" /> <!-- Bone Arrow -->
+        <item id="1342" price="1" /> <!-- Steel Arrow -->
+        <item id="1343" price="1" /> <!-- Silver Arrow -->
+        <item id="1344" price="1" /> <!-- Mithril Arrow -->
+        <item id="1345" price="1" /> <!-- Shining Arrow -->
+        <item id="18550" price="1" /> <!-- Orichalcum Arrow -->
+        <item id="9632" price="1" /> <!-- Wooden Bolt -->
+        <item id="9633" price="1" /> <!-- Bone Bolt -->
+        <item id="9634" price="1" /> <!-- Steel Bolt -->
+        <item id="9635" price="1" /> <!-- Silver Bolt -->
+        <item id="9636" price="1" /> <!-- Mithril Bolt -->
+        <item id="9637" price="1" /> <!-- Shining Bolt -->
+        <item id="19443" price="1" /> <!-- Orichalcum Bolt -->
     </shop>
     <shop id="50023" npcId="40003">
-        <item id="1835" /> <!-- Soulshot: No Grade -->
-        <item id="1463" /> <!-- Soulshot (D-Grade) -->
-        <item id="1464" /> <!-- Soulshot (C-Grade) -->
-        <item id="1465" /> <!-- Soulshot (B-Grade) -->
-        <item id="1466" /> <!-- Soulshot (A-Grade) -->
-        <item id="1467" /> <!-- Soulshot (S-Grade) -->
-        <item id="17754" price="205" /> <!-- Soulshot (R-Grade) -->
-        <item id="2509" /> <!-- Spiritshot: No Grade -->
-        <item id="2510" /> <!-- Spiritshot (D-Grade) -->
-        <item id="2511" /> <!-- Spiritshot (C-Grade) -->
-        <item id="2512" /> <!-- Spiritshot (B-Grade) -->
-        <item id="2513" /> <!-- Spiritshot (A-Grade) -->
-        <item id="2514" /> <!-- Spiritshot (S-Grade) -->
-        <item id="19441" price="285" /> <!-- Spiritshot (S-Grade) -->
-        <item id="3947" /> <!-- Blessed Spiritshot: No Grade -->
-        <item id="3948" /> <!-- Blessed Spiritshot (D-Grade) -->
-        <item id="3949" /> <!-- Blessed Spiritshot (C-Grade) -->
-        <item id="3950" /> <!-- Blessed Spiritshot (B-Grade) -->
-        <item id="3951" /> <!-- Blessed Spiritshot (A-Grade) -->
-        <item id="3952" /> <!-- Blessed Spiritshot (S-Grade) -->
-        <item id="19442" price="503" /> <!-- Blessed Spiritshot (S-Grade) -->
-        <item id="6645" /> <!-- Beast Soulshot -->
-        <item id="6646" /> <!-- Beast Spiritshot -->
-        <item id="6647" /> <!-- Blessed Beast Spiritshot -->
-        <item id="6535" /> <!-- Fishing Shot (No-Grade) -->
-        <item id="6536" /> <!-- Fishing Shot (D-Grade) -->
-        <item id="6537" /> <!-- Fishing Shot (C-Grade) -->
-        <item id="6538" /> <!-- Fishing Shot (B-Grade) -->
-        <item id="6539" /> <!-- Fishing Shot (A-Grade) -->
-        <item id="6540" /> <!-- Fishing Shot (S-Grade) -->
+        <item id="1835" price="1" /> <!-- Soulshot: No Grade -->
+        <item id="1463" price="1" /> <!-- Soulshot (D-Grade) -->
+        <item id="1464" price="1" /> <!-- Soulshot (C-Grade) -->
+        <item id="1465" price="1" /> <!-- Soulshot (B-Grade) -->
+        <item id="1466" price="1" /> <!-- Soulshot (A-Grade) -->
+        <item id="1467" price="1" /> <!-- Soulshot (S-Grade) -->
+        <item id="17754" price="1" /> <!-- Soulshot (R-Grade) -->
+        <item id="2509" price="1" /> <!-- Spiritshot: No Grade -->
+        <item id="2510" price="1" /> <!-- Spiritshot (D-Grade) -->
+        <item id="2511" price="1" /> <!-- Spiritshot (C-Grade) -->
+        <item id="2512" price="1" /> <!-- Spiritshot (B-Grade) -->
+        <item id="2513" price="1" /> <!-- Spiritshot (A-Grade) -->
+        <item id="2514" price="1" /> <!-- Spiritshot (S-Grade) -->
+        <item id="19441" price="1" /> <!-- Spiritshot (R-Grade) -->
+        <item id="3947" price="1" /> <!-- Blessed Spiritshot: No Grade -->
+        <item id="3948" price="1" /> <!-- Blessed Spiritshot (D-Grade) -->
+        <item id="3949" price="1" /> <!-- Blessed Spiritshot (C-Grade) -->
+        <item id="3950" price="1" /> <!-- Blessed Spiritshot (B-Grade) -->
+        <item id="3951" price="1" /> <!-- Blessed Spiritshot (A-Grade) -->
+        <item id="3952" price="1" /> <!-- Blessed Spiritshot (S-Grade) -->
+        <item id="19442" price="1" /> <!-- Blessed Spiritshot (R-Grade) -->
+        <item id="6645" price="1" /> <!-- Beast Soulshot -->
+        <item id="6646" price="1" /> <!-- Beast Spiritshot -->
+        <item id="6647" price="1" /> <!-- Blessed Beast Spiritshot -->
+        <item id="6535" price="1" /> <!-- Fishing Shot (No-Grade) -->
+        <item id="6536" price="1" /> <!-- Fishing Shot (D-Grade) -->
+        <item id="6537" price="1" /> <!-- Fishing Shot (C-Grade) -->
+        <item id="6538" price="1" /> <!-- Fishing Shot (B-Grade) -->
+        <item id="6539" price="1" /> <!-- Fishing Shot (A-Grade) -->
+        <item id="6540" price="1" /> <!-- Fishing Shot (S-Grade) -->
     </shop>
     <shop id="50024" npcId="40003">
         <item id="1419" price="10000000" /> <!-- Blood Mark -->
