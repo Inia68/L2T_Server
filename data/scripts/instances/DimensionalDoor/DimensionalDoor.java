@@ -57,7 +57,7 @@ public class DimensionalDoor extends Quest
 
 		if (event.equalsIgnoreCase("main"))
 		{
-			return _qn + (Config.SERVER_NAME.contains("khadia") ? "_old" : "") + ".html";
+			return _qn + (Config.SERVER_NAME.contains("legacy") ? "_old" : "") + ".html";
 		}
 		else if (event.equalsIgnoreCase("learnSkills"))
 		{
@@ -104,7 +104,7 @@ public class DimensionalDoor extends Quest
 			Log.warning(getName() + ": onFirstTalk: " + player.getName());
 		}
 
-		return _qn + (Config.SERVER_NAME.contains("khadia") ? "_old" : "") + ".html";
+		return _qn + (Config.SERVER_NAME.contains("legacy") ? "_old" : "") + ".html";
 	}
 
 	public static int getNpcManagerId()

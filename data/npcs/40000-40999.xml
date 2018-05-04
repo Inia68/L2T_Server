@@ -29,7 +29,7 @@
          holyRes="20"
          darkRes="20" aiType="fighter">
     </npc>
-    <npc id="40004" templateId="32153" name="Esthus" serverSideName="true" title="Server Information"
+    <npc id="40004" templateId="32153" name="Legacy" serverSideName="true" title="Server Information"
          serverSideTitle="true"
          level="70" type="L2Npc" atkRange="40" hpMax="6036" hpReg="10.0" mpMax="1494" mpReg="3.0" STR="80" CON="74"
          DEX="61"
