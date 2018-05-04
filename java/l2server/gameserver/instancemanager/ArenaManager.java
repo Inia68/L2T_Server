@@ -59,7 +59,7 @@ public class ArenaManager
 				continue;
 			if (f.getId() == id)
 				return f;
-			}
+		}
 		return null;
 	};
 
