@@ -62,7 +62,7 @@
 
     <config name="LoginDbLogin" var="DATABASE_LOGIN" default="root" />
 
-    <config name="LoginDbPassword" var="DATABASE_PASSWORD" default="" />
+    <config name="LoginDbPassword" var="DATABASE_PASSWORD" default="root" />
 
     <config name="LoginMaximumDbConnections" var="DATABASE_MAX_CONNECTIONS" default="10" />
 
@@ -82,8 +82,7 @@
     -->
     <config name="ForceGGAuth" var="FORCE_GGAUTH" default="False" />
 
-    <config name="
-    AutoCreateAccounts" var="AUTO_CREATE_ACCOUNTS" default="True" />
+    <config name="AutoCreateAccounts" var="AUTO_CREATE_ACCOUNTS" default="True" />
 
     <!-- Flood Protection. All values are in MILISECONDS. -->
     <config name="EnableFloodProtection" var="FLOOD_PROTECTION" default="True" />

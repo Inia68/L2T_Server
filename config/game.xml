@@ -50,11 +50,11 @@
 
     <config name="GameDbDriver" var="DATABASE_DRIVER" default="com.mysql.jdbc.Driver" />
 
-    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://192.168.103.1:3306/l2tenkai_khadia" />
+    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://localhost:3306/tenkai_legacy" />
 
-    <config name="GameDbLogin" var="DATABASE_LOGIN" default="l2tenkai_khadia" />
+    <config name="GameDbLogin" var="DATABASE_LOGIN" default="root" />
 
-    <config name="GameDbPassword" var="DATABASE_PASSWORD" default="Mpb4gpfr" />
+    <config name="GameDbPassword" var="DATABASE_PASSWORD" default="root" />
 
     <config name="GameMaximumDbConnections" var="DATABASE_MAX_CONNECTIONS" default="100" />
 

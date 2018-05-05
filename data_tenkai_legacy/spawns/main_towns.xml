@@ -11,6 +11,8 @@
         <spawn npcId="40004" x="-14378" y="123799" z="-3126" heading="14450" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="-14786" y="123565" z="-3122" heading="1413" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="14625" y="124016" z="-3127" heading="49151" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="dion_custom_spawns">
         <!-- Global Teleporter -->
@@ -23,6 +25,8 @@
         <spawn npcId="40004" x="18772" y="145437" z="-3133" heading="28498" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="18606" y="145920" z="-3076" heading="48500" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="18617" y="145926" z="-3074" heading="29727" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="giran_custom_spawns">
         <!-- Global Teleporter -->
@@ -35,6 +39,8 @@
         <spawn npcId="40004" x="83391" y="148623" z="-3409" heading="32712" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="83265" y="148399" z="-3409" heading="0" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="83276" y="148393" z="-3407" heading="1480" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="oren_custom_spawns">
         <!-- Global Teleporter -->
@@ -46,7 +52,6 @@
         <!-- Server Information -->
         <spawn npcId="40004" x="80905" y="54726" z="-1529" heading="33749" respawn="10000" />
         <!-- Services NPC -->
-        <spawn npcId="40005" x="80882" y="54895" z="-1529" heading="33979" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="aden_custom_spawns">
         <!-- Global Teleporter -->
@@ -95,6 +100,8 @@
         <spawn npcId="40004" x="43891" y="-48048" z="-801" heading="32767" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="43554" y="-47658" z="-801" heading="32767" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="43887" y="-48121" z="-797" heading="29727" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="schuttgart_custom_spawns">
         <!-- Global Teleporter -->
