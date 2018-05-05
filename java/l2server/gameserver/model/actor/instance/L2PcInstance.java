@@ -19610,7 +19610,7 @@ public class L2PcInstance extends L2Playable
 			L2TownZone townZone = TownManager.getTown(currentTown.getTownId());
 			if (!townZone.isCharacterInZone(this))
 			{
-				sCount = 2;
+				sCount = 4;
 			}
 		}
 		for (int i = 0; i < sCount; i++)

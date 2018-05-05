@@ -19,6 +19,7 @@ import l2server.Config;
 import l2server.gameserver.events.instanced.EventsManager;
 import l2server.gameserver.instancemanager.AntiFeedManager;
 import l2server.gameserver.model.actor.instance.L2PcInstance;
+import l2server.gameserver.model.entity.Message;
 import l2server.gameserver.network.SystemMessageId;
 import l2server.gameserver.network.serverpackets.NpcHtmlMessage;
 import l2server.gameserver.network.serverpackets.SystemMessage;
@@ -383,6 +384,12 @@ public class OlympiadManager
 			//sm.addPcName(noble);
 			//player.sendPacket(sm);
 			player.sendMessage("Only awakened characters can participate in the Grand Olympiad.");
+			return null;
+		}
+
+		if (player.getLevel() < 105 || player.getPvpKills() < 200)
+		{
+			player.sendMessage("Sorry you do not meet the requirements to join Oly. Please return when you have them");
 			return null;
 		}
 

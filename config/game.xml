@@ -41,9 +41,9 @@
         Misc Server Settings
         -
         This is the server ID that the Game Server will request.
-        Example: 1 = Bartz
+        Example: 1 = Bartz\
     -->
-    <config name="RequestServerID" var="REQUEST_ID" default="1" />
+    <config name="RequestServerID" var="REQUEST_ID" default="4" />
 
     <!-- True = The Login Server will give an other ID to the server if the requested ID is already reserved. -->
     <config name="AcceptAlternateID" var="ACCEPT_ALTERNATE_ID" default="True" />

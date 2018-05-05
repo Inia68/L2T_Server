@@ -78,7 +78,7 @@ public class Mdam implements ISkillHandler
 			activeSummon.setChargedSpiritShot(L2ItemInstance.CHARGED_NONE);
 		}
 
-		double pveAoeNerf = 1.0;
+		//double pveAoeNerf = 1.0;
 		for (L2Object obj : targets)
 		{
 			if (!(obj instanceof L2Character))
@@ -103,11 +103,11 @@ public class Mdam implements ISkillHandler
 			final byte reflect = Formulas.calcSkillReflect(target, skill);
 
 			int damage = (int) Formulas.calcMagicDam(activeChar, target, skill, shld, ssMul, mcrit);
-			if (target instanceof L2MonsterInstance && Config.isServer(Config.TENKAI))
-			{
-				damage *= pveAoeNerf;
-				pveAoeNerf *= 0.5;
-			}
+			//if (target instanceof L2MonsterInstance && Config.isServer(Config.TENKAI))
+			//{
+			//	damage *= pveAoeNerf;
+			//	pveAoeNerf *= 0.5;
+			//}
 
 			if (damage != 0)
 			{

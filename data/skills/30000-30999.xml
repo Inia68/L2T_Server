@@ -2056,7 +2056,7 @@
     -->
     <skill id="30520" levels="3" name="Steel Mind">
         <enchantRoute id="1" level="1,2,3" /> <!-- Time -->
-        <table name="#pAtkPSCritDam">10 15 15</table>
+        <table name="#pAtkPSCritDam">10 15 30</table>
         <table name="#pAtk">15 30 30</table>
         <table name="#runSpd">50 70 70</table>
         <table name="#mpConsume">221 232 243</table>
@@ -2099,7 +2099,9 @@
         <set name="operateType" val="OP_ACTIVE" />
         <set name="hitTime" val="1000" />
         <set name="coolTime" val="500" />
-        <set name="reuseDelay" val="1000" />
+        <set name="reuseDelay" val="0" />
+        <set name="ignoredDefPercent" val="30"/>
+        <set name="baseCritRate" val="15"/>
         <for>
             <abnormal count="1" duration="1">
                 <effect type="HeavyPunch" val="0" />
@@ -2150,7 +2152,7 @@
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <set name="weaponsAllowed" val="Dual Fist" />
-        <set name="activationChance" val="10" />
+        <set name="activationChance" val="15" />
         <set name="chanceType" val="ON_HIT" />
         <set name="triggeredId" val="30521" />
         <set name="triggeredLevel" val="1" />

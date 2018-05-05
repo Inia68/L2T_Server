@@ -3340,16 +3340,24 @@
           weight="0" crystal_type="none">
     </item>
     <!-- Tauti's Ring. Fire/Dark Resistance + 25, MP + 38, Critical Damage + 15%, Skill Power + 5%, PvP damage + 5%, Paralysis/Binding/Banishment Resistance + 10, Damage Reflect Resistance + 5, Absorption Resistance + 5, received PvP damage - 5%, and critical + 54 when a blunt is equipped. Even if you wear two identical rings, only the effects of one apply (excluding attributes/M. Def.). -->
-    <item id="27664" type="Weapon" name="Tauti's Ring - 7-day" icon="icon.accessary_tauti_ring" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27664" type="Armor" name="Tauti's Ring - 7-day" icon="icon.accessary_tauti_ring"
+          defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150"
+          isEnchantable="false" isOlyRestricted="true" time="10080" isEpic="true">
         <baseAdd stat="mDef" val="108" />
+        <skill id="8870" level="1" /> <!-- Tauti's Ring -->
+
     </item>
     <!-- MP +38, increases physical attack resistance, Mental Attack Resistance, MP Regeneration, P. Critical Damage, and Accuracy. Poison Resistance 50% increase, Poison Attack Rate 50% increase, Knock Back, Knock Down, Pulling Resistance 20 increase, Atk. Spd. Increase, Casting Spd. Increase, and Wind/Water Resistance increase. Can use skills that affect party members' Atk. Spd., Casting Spd., and Vampiric Rage. Can use Poison removal. Only one effect is applied even when the same two rings are worn. -->
-    <item id="27665" type="Weapon" name="Earth Wyrm Heart Ring - 7-day" icon="icon.ring_earthworm_heart" bodypart="none"
-          material="steel"
-          weight="0" crystal_type="none">
+    <item id="27665" type="Armor" name="Earth Wyrm Heart Ring - 7-day" icon="icon.ring_earthworm_heart"
+          defaultAction="equip"
+          bodypart="rfinger;lfinger" immediateEffect="1" weight="150"
+          isDepositable="false"
+          isEnchantable="false" isOlyRestricted="true" time="10080" isEpic="true">
         <baseAdd stat="mDef" val="108" />
+        <skill id="13317" level="1" /> <!-- Earth Wyrm Heart Ring -->
+        <skill id="13318" level="1" /> <!-- Earth Wyrm Heart Ring -->
+        <skill id="13319" level="1" /> <!-- Earth Wyrm Heart Ring -->
     </item>
     <!-- Take it to Freya in Schuttgart along with Freya's Frozen Scroll to exchange for Freya's Fated Support Box./nWill be deleted after event. -->
     <item id="27666" type="Weapon" name="Freya's Ice Crystal" icon="icon.bm_freya_crystal" bodypart="none"

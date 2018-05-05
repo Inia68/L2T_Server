@@ -8651,8 +8651,8 @@
         <set name="hitTime" val="3000" />
         <set name="reuseDelay" val="600000" />
         <set name="staticReuse" val="true" />
-        <set name="castRange" val="900" />
-        <set name="skillRadius" val="180" />
+        <set name="castRange" val="1100" />
+        <set name="skillRadius" val="1800" />
         <for>
             <cond msgId="1509">
                 <player olympiad="false" />
@@ -8674,7 +8674,7 @@
         <set name="hitTime" val="5000" />
         <set name="reuseDelay" val="3600000" />
         <set name="staticReuse" val="true" />
-        <set name="skillRadius" val="900" />
+        <set name="skillRadius" val="1800" />
         <set name="aggroPoints" val="100" />
         <for>
             <cond msgId="1509">
@@ -8694,7 +8694,7 @@
         <set name="hitTime" val="5000" />
         <set name="reuseDelay" val="1800000" />
         <set name="staticReuse" val="true" />
-        <set name="skillRadius" val="900" />
+        <set name="skillRadius" val="1800" />
         <set name="removedOnAction" val="true" />
         <for>
             <cond msgId="1509">
@@ -8720,7 +8720,7 @@
         <set name="hitTime" val="5000" />
         <set name="reuseDelay" val="3600000" />
         <set name="staticReuse" val="true" />
-        <set name="skillRadius" val="1000" />
+        <set name="skillRadius" val="1800" />
         <for>
             <cond msgId="1509">
                 <player olympiad="false" />

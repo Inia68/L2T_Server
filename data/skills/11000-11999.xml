@@ -6117,8 +6117,8 @@
 	-->
     <skill id="11288" levels="4" name="Ultimate Servitor Share">
         <table name="#pAtk">60 65 70 70</table>
-        <table name="#pDef">50 53 53 60</table>
-        <table name="#mDef">30 35 35 50</table>
+        <table name="#pDef">50 53 55 60</table>
+        <table name="#mDef">30 35 40 50</table>
         <table name="#coolTime">200 0 0 0</table>
         <set name="target" val="TARGET_SELF" />
         <set name="skillType" val="BUFF" />
@@ -7525,7 +7525,7 @@
                 <effect type="Buff" val="0" />
                 <addPercent stat="pAtkSpd" val="#atkSpd" />
                 <addPercent stat="pAtk" val="#atk" />
-                <addPercent stat="accCombat" val="#acc" />
+                <add stat="accCombat" val="#acc" />
                 <addPercent stat="maxHp" val="#maxHp" />
                 <addPercent stat="pDef" val="#addPercentPDef" />
                 <add stat="runSpd" val="#addRunSpd" />

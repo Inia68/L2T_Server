@@ -489,10 +489,10 @@ public class CharStat
 			val = Config.MAX_MATK_SPEED;
 		}
 
-		if (Config.isServer(Config.TENKAI) && val > 1650)
-		{
-			val = 1650 + (int) Math.pow(val - 1650, 0.8);
-		}
+		//if (Config.isServer(Config.TENKAI) && val > 1650)
+		//{
+		//	val = 1650 + (int) Math.pow(val - 1650, 0.8);
+		//}
 
 		return (int) val;
 	}
