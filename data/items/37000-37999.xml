@@ -5028,7 +5028,7 @@
           defaultAction="equip"
           bodypart="rear;lear" immediateEffect="1" weight="150" isTradable="false" isDropable="false"
           isSellable="false">
-        <baseAdd stat="mDef" val="170" />
+        <baseAdd stat="mDef" val="170" time="10080" />/>
         <skill id="13313" level="1" /> <!-- Blessed Antharas' Earring -->
         <skill id="13314" level="1" /> <!-- Blessed Antharas' Earring -->
     </item>
@@ -5036,7 +5036,7 @@
     <item id="37733" type="Armor" name="Blessed Valakas' Necklace - 7-day" icon="icon.accessory_necklace_of_valakas_i00"
           defaultAction="equip"
           bodypart="neck" immediateEffect="1" weight="150" isTradable="false" isDropable="false" isSellable="false">
-        <baseAdd stat="mDef" val="226" />
+        <baseAdd stat="mDef" val="226" time="10080" /> />
         <skill id="13315" level="1" /> <!-- Blessed Valakas' Necklace -->
         <skill id="13316" level="1" /> <!-- Blessed Valakas' Necklace -->
     </item>
@@ -5073,8 +5073,8 @@
     </item>
     <!-- Item is given to the winner of the Ceremony of Chaos that takes place in the Mysterious Mansion. When equipped, increases Max HP, MP, and CP by 1000, weight by 25600, and damage by 8%. Decreases received damage by 9% and Damage Reflect Resistance by 5%. Increases the number of inventory slots by 36 and all Attribute Resistance by 15. Cannot be used in the Olympiad. -->
     <item id="37737" type="Armor" name="Ruler's Authority - 7-day" icon="icon.belt_rulers_authority"
-          defaultAction="equip" bodypart="waist"
-          immediateEffect="1" crystalType="r" weight="440" enchantEnabled="1" time="10080">
+          defaultAction="equip" bodypart="waist" immediateEffect="1" isTradable="false" isDropable="false"
+          isSellable="false" isEnchantable="false" isOlyRestricted="true" time="10080">
         <baseAdd stat="pDef" val="50" />
         <enchant stat="pDef" val="0" />
         <skill id="15145" level="1" /> <!-- Ruler's Authority -->

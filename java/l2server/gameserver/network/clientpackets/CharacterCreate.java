@@ -293,10 +293,21 @@ public final class CharacterCreate extends L2GameClientPacket
 
 		newChar.addAdena("Init", Config.STARTING_ADENA, null, false);
 
-		newChar.setXYZInvisible(template.startX, template.startY, template.startZ);
-		newChar.setTitle("");
+        MainTownInfo mainTown = MainTownManager.getInstance().getCurrentMainTown();
+        if (mainTown != null)
+        {
+            int startX = mainTown.getStartX() + Rnd.get(-mainTown.getStartRandom(), mainTown.getStartRandom());
+            int startY = mainTown.getStartY() + Rnd.get(-mainTown.getStartRandom(), mainTown.getStartRandom());
+            int startZ = GeoData.getInstance().getHeight(startX, startY, mainTown.getStartZ());
+            newChar.setXYZInvisible(startX, startY, startZ);
+        }
+        else
+        {
+            newChar.setXYZInvisible(template.startX + Rnd.get(-template.startRandom, template.startRandom),
+                    template.startY + Rnd.get(-template.startRandom, template.startRandom), template.startZ);
+        }
+		newChar.setTitle("L2Legacy");
 
-		newChar.setTitle("");
 
 		if (Config.STARTING_LEVEL > 1)
 		{
@@ -432,35 +443,40 @@ public final class CharacterCreate extends L2GameClientPacket
 			player.registerMacro(macro);
 			shortcut = new L2ShortCut(7, 0, 4, 1001, 0, 0);
 			player.registerShortCut(shortcut);
-			// .treasure macro
-			macro = new L2Macro(1002, 5, "Treasure", "Treasure Seeking Hints", "TRSR",
-					new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".treasure")});
-			player.registerMacro(macro);
-			shortcut = new L2ShortCut(8, 0, 4, 1002, 0, 0);
-			player.registerShortCut(shortcut);
-			// .noexp macro
-			macro = new L2Macro(1003, 5, "No Exp", "To not earn experience", "NOEX",
-					new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".noexp")});
-			player.registerMacro(macro);
-			shortcut = new L2ShortCut(9, 0, 4, 1003, 0, 0);
-			player.registerShortCut(shortcut);
-			// .blockrequests macro
-			macro = new L2Macro(1004, 5, "Block Requests", "To block all the requests", "BKTR",
-					new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".blockrequests")});
-			player.registerMacro(macro);
-			shortcut = new L2ShortCut(10, 0, 4, 1004, 0, 0);
-			player.registerShortCut(shortcut);
+			//// .treasure macro
+			//macro = new L2Macro(1002, 5, "Treasure", "Treasure Seeking Hints", "TRSR",
+			//		new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".treasure")});
+			//player.registerMacro(macro);
+			//shortcut = new L2ShortCut(8, 0, 4, 1002, 0, 0);
+			//player.registerShortCut(shortcut);
+			//// .noexp macro
+			//macro = new L2Macro(1003, 5, "No Exp", "To not earn experience", "NOEX",
+			//		new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".noexp")});
+			//player.registerMacro(macro);
+			//shortcut = new L2ShortCut(9, 0, 4, 1003, 0, 0);
+			//player.registerShortCut(shortcut);
+			//// .blockrequests macro
+			//macro = new L2Macro(1004, 5, "Block Requests", "To block all the requests", "BKTR",
+			//		new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".blockrequests")});
+			//player.registerMacro(macro);
+			//shortcut = new L2ShortCut(10, 0, 4, 1004, 0, 0);
+			//player.registerShortCut(shortcut);
 			// .refusebuff macro
-			macro = new L2Macro(1005, 5, "Refuse Buff", "To refuse other players' buffs", "RFBF",
-					new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".refusebuff")});
-			player.registerMacro(macro);
-			shortcut = new L2ShortCut(11, 0, 4, 1005, 0, 0);
-			player.registerShortCut(shortcut);
+			//macro = new L2Macro(1005, 5, "Refuse Buff", "To refuse other players' buffs", "RFBF",
+			//		new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".refusebuff")});
+			//player.registerMacro(macro);
+			//shortcut = new L2ShortCut(11, 0, 4, 1005, 0, 0);
+			//player.registerShortCut(shortcut);
 			// .landrates macro
             /*macro = new L2Macro(1006, 5, "Land Rates", "To see the skill land rates", "LDRT", new L2MacroCmd[]{new L2MacroCmd(0, 3, 0, 0, ".landrates")});
 			player.registerMacro(macro);
 			shortcut = new L2ShortCut(11, 0, 4, 1006, 0, 0);
 			player.registerShortCut(shortcut);*/
+            //7 Day Boss Jewels set
+			item = player.getInventory().addItem("Init",40213, 1, player, null);
+			shortcut = new L2ShortCut(3,0,1, item.getObjectId(), 0, 1);
+			player.registerShortCut(shortcut);
+
 		}
 
 		if (Config.isServer(Config.TENKAI_LEGACY))

@@ -96,7 +96,7 @@ public class Pdam implements ISkillHandler
 			damageMultiplier = 2;
 		}
 
-		double pveAoeNerf = 1.0;
+		//double pveAoeNerf = 1.0;
 		for (L2Object obj : targets)
 		{
 			if (!(obj instanceof L2Character))
@@ -159,11 +159,11 @@ public class Pdam implements ISkillHandler
 				damage = (int) Formulas.calcPhysSkillDam(activeChar, target, skill, shld, crit, dual, soul);
 			}
 
-			if (target instanceof L2MonsterInstance && Config.isServer(Config.TENKAI))
-			{
-				damage *= pveAoeNerf;
-				pveAoeNerf *= 0.5;
-			}
+			//if (target instanceof L2MonsterInstance && Config.isServer(Config.TENKAI))
+			//{
+			//	damage *= pveAoeNerf;
+			//	pveAoeNerf *= 0.5;
+			//}
 
 			if (damagesMultipliesPerTarget)
 			{
