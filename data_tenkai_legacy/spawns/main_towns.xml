@@ -52,6 +52,9 @@
         <!-- Server Information -->
         <spawn npcId="40004" x="80905" y="54726" z="-1529" heading="33749" respawn="10000" />
         <!-- Services NPC -->
+        <spawn npcId="40005" x="80882" y="54895" z="-1529" heading="33979" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="80279" y="54720" z="-1559" heading="612" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="aden_custom_spawns">
         <!-- Global Teleporter -->
@@ -64,6 +67,8 @@
         <spawn npcId="40004" x="147459" y="26875" z="-2208" heading="49093" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="147511" y="27270" z="-2208" heading="51895" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="147809" y="26629" z="-2207" heading="22723" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="heine_custom_spawns">
         <!-- Global Teleporter -->
@@ -76,6 +81,8 @@
         <spawn npcId="40004" x="111391" y="219211" z="-3547" heading="50245" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="111409" y="218675" z="-3470" heading="17918" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="111141" y="219180" z="-3542" heading="53739" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="goddard_custom_spawns">
         <!-- Global Teleporter -->
@@ -88,6 +95,8 @@
         <spawn npcId="40004" x="147725" y="-55815" z="-2762" heading="15197" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="147700" y="-55508" z="-2738" heading="49458" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="147828" y="55145" z="-2734" heading="45796" respawn="10000" />
     </specificSpawnList>
     <specificSpawnList name="rune_custom_spawns">
         <!-- Global Teleporter -->
@@ -114,5 +123,7 @@
         <spawn npcId="40004" x="87363" y="-143013" z="-1305" heading="16461" respawn="10000" />
         <!-- Services NPC -->
         <spawn npcId="40005" x="87513" y="-143259" z="-1297" heading="16383" respawn="10000" />
+        <!-- Dimensional Cat -->
+        <spawn npcId="80200" x="87206" y="143479" z="-1292" heading="17681" respawn="10000" />
     </specificSpawnList>
 </list>
