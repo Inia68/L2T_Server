@@ -5,10 +5,13 @@ import l2server.gameserver.ThreadPoolManager;
 import l2server.gameserver.instancemanager.TransformationManager;
 import l2server.gameserver.model.actor.L2Character;
 import l2server.gameserver.model.actor.instance.L2PcInstance;
+import l2server.gameserver.network.serverpackets.NpcHtmlMessage;
 import l2server.util.Rnd;
+import sun.security.ssl.Debug;
 
 import java.util.HashMap;
 import java.util.Map;
+import java.util.StringTokenizer;
 import java.util.Vector;
 
 /**
@@ -25,6 +28,102 @@ public class Elpy
     public static int time = 5; //Min
     public static int minPlayers = 2;
     public static int life = 6;
+
+    public boolean isRegistered(L2PcInstance player){
+        return (registered.contains(player));
+    }
+
+    public State getCurrentState() {
+        return state;
+    }
+
+    public void showWindow(L2PcInstance player)
+    {
+        StringBuilder tb = new StringBuilder();
+
+        tb.append("<html>");
+        tb.append("<center>");
+        tb.append("<img src=\"L2UI_CH3.herotower_deco\" width=256 height=32>");
+        tb.append("<font color=\"3D81A8\">Elpy Manager</font></center><br><br>");
+
+        tb.append("<center>");
+        tb.append("<tr>");
+        if (player.isGM()) {
+            tb.append("<br1><center>~~~~ For GM's Only ~~~~</center> <br1>");
+            if (Elpy.getInstance().getCurrentState() == Elpy.state.INNACTIVE) {
+                tb.append("<td><button value=\"Start Event\" width=120 height=32  fore=\"L2UI_CT1.Button_DF_Calculator\"" + " back=\"L2UI_CT1.Button_DF_Calculator_Over\" action=\"bypass -h elpy gm start\" ></td>");
+            } else {
+                tb.append("<td><button value=\"Stop Event\" width=120 height=32  fore=\"L2UI_CT1.Button_DF_Calculator\"" + " back=\"L2UI_CT1.Button_DF_Calculator_Over\" action=\"bypass -h elpy gm stop\" ></td>");
+            }
+            tb.append("<center>~~~~~~~~~~~~~~~~</center> <br><br>");
+        }
+
+        if (Elpy.getInstance().getCurrentState() == Elpy.state.REGISTRATION) {
+            if (Elpy.getInstance().isRegistered(player)) {
+                tb.append("<td><button value=\"Leave\" width=120 height=32  fore=\"L2UI_CT1.Button_DF_Calculator\"" + " back=\"L2UI_CT1.Button_DF_Calculator_Over\" action=\"bypass -h elpy pl leave\" ></td>");
+            } else {
+                tb.append("<td><button value=\"Register\" width=120 height=32  fore=\"L2UI_CT1.Button_DF_Calculator\"" + " back=\"L2UI_CT1.Button_DF_Calculator_Over\" action=\"bypass -h elpy pl join\" ></td>");
+            }
+        } else {
+            tb.append("<center>Event is in registration " + Elpy.getInstance().getCurrentState() + " state.</center>");
+        }
+        tb.append("</tr>");
+        tb.append("</center>");
+        tb.append("</html");
+
+
+        NpcHtmlMessage msg = new NpcHtmlMessage(0);
+        msg.setHtml(tb.toString());
+        player.sendPacket(msg);
+        return;
+    }
+
+    public void parser(String command, L2PcInstance player)
+    {
+        StringTokenizer st = new StringTokenizer(command, " ");
+        st.nextToken();
+
+
+        String val = st.nextToken();
+
+        switch (val) {
+            case "gm" : {
+                val = st.nextToken();
+                switch (val)
+                {
+                    case "start" : {
+                        openRegistration();
+                        break;
+                    }
+                    case "stop" : {
+                        stopEvent();
+                        break;
+                    }
+                }
+                break;
+            }
+            case "pl" : {
+                val = st.nextToken();
+                switch (val)
+                {
+                    case "join" : {
+                        addPlayer(player);
+                        break;
+                    }
+                    case "leave" : {
+                        removePlayer(player);
+                        break;
+                    }
+                }
+                break;
+            }
+            default: {
+                    //Wrong cmd do something later
+                break;
+            }
+        }
+        showWindow(player);
+    }
 
     public void openRegistration()
     {
@@ -104,7 +203,7 @@ public class Elpy
 
     public void stopEvent()
     {
-        if (state != State.ACTIVE)
+        if (state == state.INNACTIVE)
             return;
         Announcements.getInstance().announceToAll("Event finished.");
         for (L2PcInstance player : registered)

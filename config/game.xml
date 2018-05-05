@@ -41,18 +41,18 @@
         Misc Server Settings
         -
         This is the server ID that the Game Server will request.
-        Example: 1 = Bartz\
+        Example: 1 = Bartz
     -->
-    <config name="RequestServerID" var="REQUEST_ID" default="4" />
+    <config name="RequestServerID" var="REQUEST_ID" default="1" />
 
     <!-- True = The Login Server will give an other ID to the server if the requested ID is already reserved. -->
     <config name="AcceptAlternateID" var="ACCEPT_ALTERNATE_ID" default="True" />
 
     <config name="GameDbDriver" var="DATABASE_DRIVER" default="com.mysql.jdbc.Driver" />
 
-    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://localhost:3306/tenkai_legacy" />
+    <config name="GameDbURL" var="DATABASE_URL" default="jdbc:mysql://192.168.103.1:3306/l2tenkai_legacy" />
 
-    <config name="GameDbLogin" var="DATABASE_LOGIN" default="root" />
+    <config name="GameDbLogin" var="DATABASE_LOGIN" default="l2tenkai_legacy" />
 
     <config name="GameDbPassword" var="DATABASE_PASSWORD" default="root" />
 

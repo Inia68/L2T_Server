@@ -82,7 +82,8 @@
     -->
     <config name="ForceGGAuth" var="FORCE_GGAUTH" default="False" />
 
-    <config name="AutoCreateAccounts" var="AUTO_CREATE_ACCOUNTS" default="True" />
+    <config name="
+    AutoCreateAccounts" var="AUTO_CREATE_ACCOUNTS" default="True" />
 
     <!-- Flood Protection. All values are in MILISECONDS. -->
     <config name="EnableFloodProtection" var="FLOOD_PROTECTION" default="True" />

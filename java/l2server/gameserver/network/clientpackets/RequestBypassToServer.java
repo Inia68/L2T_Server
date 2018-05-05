@@ -20,6 +20,7 @@ import l2server.gameserver.ai.CtrlIntention;
 import l2server.gameserver.communitybbs.CommunityBoard;
 import l2server.gameserver.datatables.AdminCommandAccessRights;
 import l2server.gameserver.datatables.CharNameTable;
+import l2server.gameserver.events.Elpy;
 import l2server.gameserver.events.HiddenChests;
 import l2server.gameserver.events.instanced.EventsManager;
 import l2server.gameserver.handler.AdminCommandHandler;
@@ -133,6 +134,11 @@ public final class RequestBypassToServer extends L2GameClientPacket
 			else if (_command.equals("come_here") && activeChar.isGM())
 			{
 				comeHere(activeChar);
+			}
+			else if (_command.startsWith("elpy"))
+			{
+				Elpy.getInstance().parser(_command, activeChar);
+				return;
 			}
 			else if (_command.startsWith("npc_"))
 			{
