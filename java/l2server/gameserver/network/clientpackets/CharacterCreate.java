@@ -293,7 +293,19 @@ public final class CharacterCreate extends L2GameClientPacket
 
 		newChar.addAdena("Init", Config.STARTING_ADENA, null, false);
 
-		newChar.setXYZInvisible(template.startX, template.startY, template.startZ);
+        MainTownInfo mainTown = MainTownManager.getInstance().getCurrentMainTown();
+        if (mainTown != null)
+        {
+            int startX = mainTown.getStartX() + Rnd.get(-mainTown.getStartRandom(), mainTown.getStartRandom());
+            int startY = mainTown.getStartY() + Rnd.get(-mainTown.getStartRandom(), mainTown.getStartRandom());
+            int startZ = GeoData.getInstance().getHeight(startX, startY, mainTown.getStartZ());
+            newChar.setXYZInvisible(startX, startY, startZ);
+        }
+        else
+        {
+            newChar.setXYZInvisible(template.startX + Rnd.get(-template.startRandom, template.startRandom),
+                    template.startY + Rnd.get(-template.startRandom, template.startRandom), template.startZ);
+        }
 		newChar.setTitle("L2Legacy");
 
 

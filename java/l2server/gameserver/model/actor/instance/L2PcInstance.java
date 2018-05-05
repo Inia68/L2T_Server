@@ -12195,7 +12195,7 @@ public class L2PcInstance extends L2Playable
 			return effectArray[effect];
 		}*/
 
-		sendSysMessage("Glow = " + Math.min(127, wpn.getEnchantLevel()));
+		//sendSysMessage("Glow = " + Math.min(127, wpn.getEnchantLevel()));
 		return Math.min(127, wpn.getEnchantLevel());
 	}
 
