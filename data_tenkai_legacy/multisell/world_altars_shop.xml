@@ -225,39 +225,39 @@
         <ingredient id="23835" count="1" /> <!-- Talisman - Abundance - Morale -->
         <ingredient id="23834" count="1" /> <!-- Talisman - Abundance - Tactics -->
         <ingredient id="23836" count="1" /> <!-- Talisman - Abundance - Physique -->
-        <ingredient id="4355" count="400" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="4000" /> <!-- Blue Eva -->
         <production id="23840" count="1" /> <!-- Talisman - Outlaw - Abundance -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36176" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Sigel Knight -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36177" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Yul Archer -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36178" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Tyrr Warrior -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36179" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Othell Rogue -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36180" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Iss Enchanter -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36181" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Wynn Summoner -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36182" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Aeore Healer -->
     </item>
     <item>
-        <ingredient id="4355" count="875" /> <!-- Blue Eva -->
+        <ingredient id="4355" count="8750" /> <!-- Blue Eva -->
         <production id="36183" count="1" /> <!-- 2012 World Olympiad Hero's Accessory - Feoh Wizard -->
     </item>
     <item>
