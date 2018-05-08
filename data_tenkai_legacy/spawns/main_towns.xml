@@ -46,7 +46,7 @@
         <!-- Vote NPC -->
         <spawn npcId="50010" x="19396" y="145317" z="-3105" heading="30929" respawn="10000" />
         <!-- Event NPC -->
-        <spawn npcId="50008" x="18228" y="146030" z="-3088" heading="41852" respawn="10000" />
+        <spawn npcId="50008" x="18482" y="145926" z="-3086" heading="49151" respawn="10000" />
         <!-- King Cow NPC -->
         <spawn npcId="50014" x="17490" y="145780" z="-3070" heading="60053" respawn="10000" />
         <!-- Banker NPC -->
