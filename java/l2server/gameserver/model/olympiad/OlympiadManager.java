@@ -18,6 +18,7 @@ package l2server.gameserver.model.olympiad;
 import l2server.Config;
 import l2server.gameserver.events.instanced.EventsManager;
 import l2server.gameserver.instancemanager.AntiFeedManager;
+import l2server.gameserver.model.L2World;
 import l2server.gameserver.model.actor.instance.L2PcInstance;
 import l2server.gameserver.model.entity.Message;
 import l2server.gameserver.network.SystemMessageId;
@@ -428,7 +429,7 @@ public class OlympiadManager
 		}
 
 		//If we have access to the player HWID we will use it to check dualbox otherwise we will use the external ip and the internal ip
-		/*for (L2PcInstance pl : L2World.getInstance().getAllOlympiadPlayers())
+		for (L2PcInstance pl : L2World.getInstance().getAllOlympiadPlayers())
         {
 			if (pl == null)
 				continue;
@@ -448,7 +449,7 @@ public class OlympiadManager
 					return null;
 				}
 			}
-		}*/
+		}
 
 		if (isRegistered(player, true))
 		{

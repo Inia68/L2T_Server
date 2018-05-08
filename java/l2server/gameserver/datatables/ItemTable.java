@@ -207,15 +207,15 @@ public class ItemTable implements Reloadable
 									item.parse();
 								}
 
-								if (Config.isServer(Config.TENKAI) && item.getItem() instanceof L2Weapon &&
-										(item.getName().contains("Antharas") || item.getName().contains("Valakas") ||
-												item.getName().contains("Lindvior")))
-								{
-									item.getItem().attach(new FuncTemplate(null, "SubPercent", Stats.PHYS_ATTACK,
-											new LambdaConst(50.0)));
-									item.getItem().attach(new FuncTemplate(null, "SubPercent", Stats.MAGIC_ATTACK,
-											new LambdaConst(30.0)));
-								}
+								//if (Config.isServer(Config.TENKAI) && item.getItem() instanceof L2Weapon &&
+								//		(item.getName().contains("Antharas") || item.getName().contains("Valakas") ||
+								//				item.getName().contains("Lindvior")))
+								//{
+								//	item.getItem().attach(new FuncTemplate(null, "SubPercent", Stats.PHYS_ATTACK,
+								//			new LambdaConst(50.0)));
+								//	item.getItem().attach(new FuncTemplate(null, "SubPercent", Stats.MAGIC_ATTACK,
+								//			new LambdaConst(30.0)));
+								//}
 
 								items.put(item.getId(), item);
 							}

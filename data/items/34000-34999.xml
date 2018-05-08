@@ -11427,11 +11427,11 @@
     <!-- Cloak that symbolizes glory and light. STR/MEN/DEX/WIT/INT/CON/LUC/CHA + 3, and Damage Received - 15%. Can use Escape:ﾠCastle skill. Cannot be used while in a chaotic state. Can only be equipped by a lord. Cannot be transferred between servers. -->
     <item id="34996" type="Armor" name="Cloak of Radiant Light" icon="icon.amor_goodness_cloak" defaultAction="equip"
           bodypart="back"
-          immediateEffect="1" weight="0" isTradable="false" isDroppable="false">
+          immediateEffect="1" weight="0" isTradable="false" isDroppable="false" canBeUsedAsApp="false" >
         <cond msgId="1518">
             <and>
                 <player castle="11" />
-                <player isClanLeader="true" />
+                <player isClanLeader="false" />
                 <player chaotic="false" />
             </and>
         </cond>
