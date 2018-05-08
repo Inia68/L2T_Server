@@ -40,7 +40,7 @@
         <!-- Augment Item NPC -->
         <spawn npcId="50009" x="18552" y="145921" z="-3074" heading="52756" respawn="10000" />
         <!-- Beauty NPC -->
-        <spawn npcId="50015" x="18199" y="146081" z="-3080" heading="41544" respawn="10000" />
+        <spawn npcId="50015" x="18421" y="145946" z="-3092" heading="45183" respawn="10000" />
         <!-- Dimensional NPC -->
         <spawn npcId="80200" x="18382" y="145098" z="-3080" heading="7037" respawn="10000" />
         <!-- Vote NPC -->

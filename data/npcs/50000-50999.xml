@@ -217,7 +217,7 @@
         <itemDrop itemId="36565" min="100" max="200" chance="80" /> <!-- Exquisite Synthetic Cokes -->
     </npc>
     <npc id="80248" templateId="13190" name="Quentin" serverSideName="true" title="Marguerite's Brother" level="110" type="L2RaidBoss" atkRange="40"
-         hpMax="35000000"
+         hpMax="50000000"
          hpReg="151.22101"
          mpMax="4256867" mpReg="104.51" STR="160" CON="163" DEX="150" INT="144" WIT="120" MEN="147" exp="6810821128"
          sp="1634597"
@@ -282,7 +282,7 @@
          windRes="0" earthRes="0" holyRes="0" darkRes="0" aiType="fighter">
     </npc>
     <npc id="91004" templateId="25950" name="Aulikel" serverSideName="true" title="Descendant of the Light" level="107" type="L2RaidBoss"
-         atkRange="40" hpMax="90000000"
+         atkRange="40" hpMax="100000000"
          hpReg="151.22101"
          mpMax="4256867" mpReg="104.51" STR="160" CON="163" DEX="150" INT="144" WIT="120" MEN="147" exp="6810821128"
          sp="1634597"
@@ -309,7 +309,7 @@
         <itemDrop itemId="46194" min="1" max="2" chance="100" /> <!-- M.Reflect -->
     </npc>
     <npc id="91005" templateId="29275" name="Zlepx" serverSideName="true" title="Descendant of the Dark" level="107" type="L2RaidBoss" atkRange="40"
-         hpMax="90000000"
+         hpMax="110000000"
          hpReg="151.22101"
          mpMax="4256867" mpReg="104.51" STR="160" CON="163" DEX="150" INT="144" WIT="120" MEN="147" exp="6856810821128"
          sp="1634597"
