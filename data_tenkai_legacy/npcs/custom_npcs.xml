@@ -8,10 +8,10 @@
          mCritRate="40" walkSpd="1" runSpd="1" collisionRadius="10" collisionHeight="24" showName="false" fireRes="20"
          waterRes="20"
          windRes="20" earthRes="20" holyRes="20" darkRes="20" aiType="fighter" canMove="false">
-        <itemDrop itemId="4357" min="15000000" max="25000000" chance="100" /> <!-- Silver Shilen -->
-        <itemDrop itemId="30298" min="2" max="3" chance="80" /> <!-- Superior Giant's CoDEX - Mastery -->
-        <itemDrop itemId="46151" min="1" max="2" chance="40" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
-        <itemDrop itemId="46155" min="1" max="1" chance="20" /> <!-- Superior Giant's Codex - Mastery Chapter 2 -->
+        <itemDrop itemId="4357" min="15000" max="25000" chance="100" /> <!-- Silver Shilen -->
+        <itemDrop itemId="30298" min="1" max="2" chance="30" /> <!-- Superior Giant's CoDEX - Mastery -->
+        <itemDrop itemId="46151" min="1" max="2" chance="20" /> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+        <itemDrop itemId="46155" min="1" max="1" chance="10" /> <!-- Superior Giant's Codex - Mastery Chapter 2 -->
         <dropCategory chance="15">
             <itemDrop itemId="19448" min="1" max="1" chance="60" /> <!-- Blessed Scroll: Enchant Armor (R-grade) -->
             <itemDrop itemId="19447" min="1" max="1" chance="40" /> <!-- Blessed Scroll: Enchant Weapon (R-grade) -->
@@ -1150,7 +1150,7 @@
         <itemDrop itemId="36563" min="1" max="1" chance="0.12464" /> <!-- Synthetic Cokes -->
         <itemDrop itemId="17527" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Armor (R-grade) -->
     </npc>
-    <npc id="80350" templateId="27457" name="Scarecrow" title="Damage Dealer" level="99" type="L2RaidBoss" atkRange="0"
+    <!-- <npc id="80350" templateId="27457" name="Scarecrow" title="Damage Dealer" level="99" type="L2RaidBoss" atkRange="0"
          hpMax="191665744"
          hpReg="2536.0" mpMax="3025740" mpReg="1000.0" STR="50" CON="50" DEX="50" INT="50" WIT="50" MEN="50"
          exp="499688640"
@@ -1159,8 +1159,8 @@
          walkSpd="120" runSpd="300" isDebuffImmune="true" collisionRadius="10" collisionHeight="24" elemAtkType="0"
          elemAtkValue="600" fireRes="600"
          waterRes="600" windRes="600" earthRes="600" holyRes="600" darkRes="600" aiType="fighter">
-    </npc>
-    <npc id="80351" templateId="23368" name="Klein Soldier" level="99" type="L2RaidBoss" atkRange="40" hpMax="10000000"
+    </npc> -->
+    <npc id="80351" templateId="23368" name="Klein Soldier" level="99" type="L2RaidBoss" atkRange="40" hpMax="20000000"
          hpReg="200"
          mpMax="6317468" mpReg="119.99" STR="130" CON="143" DEX="150" INT="144" WIT="135" MEN="147" exp="9339738544"
          sp="2241537"
@@ -1181,7 +1181,7 @@
         <skill id="14315" level="1" /> <!-- Powerful Defense -->
     </npc>
     <npc id="80352" templateId="23369" name="Disorder Warrior" level="99" type="L2RaidBoss" atkRange="40"
-         hpMax="10000000" hpReg="200"
+         hpMax="20000000" hpReg="200"
          mpMax="6317468" mpReg="119.99" STR="130" CON="143" DEX="150" INT="144" WIT="135" MEN="147" exp="9339738544"
          sp="2241537"
          pAtk="400000" mAtk="200000" pDef="90000" mDef="30000" pAtkSpd="439" mAtkSpd="599" pCritRate="40" mCritRate="40"
@@ -1200,7 +1200,7 @@
         <skill id="14304" level="1" /> <!-- Energy of Defense -->
         <skill id="14315" level="1" /> <!-- Powerful Defense -->
     </npc>
-    <npc id="80353" templateId="23372" name="Bizuard" level="99" type="L2RaidBoss" atkRange="40" hpMax="10000000"
+    <npc id="80353" templateId="23372" name="Bizuard" level="99" type="L2RaidBoss" atkRange="40" hpMax="20000000"
          hpReg="200"
          mpMax="6317468" mpReg="119.99" STR="130" CON="143" DEX="150" INT="144" WIT="135" MEN="147" exp="9339738544"
          sp="2241537"
@@ -1220,7 +1220,7 @@
         <skill id="14304" level="1" /> <!-- Energy of Defense -->
         <skill id="14315" level="1" /> <!-- Powerful Defense -->
     </npc>
-    <npc id="80354" templateId="23373" name="Mutated Fly" level="99" type="L2RaidBoss" atkRange="40" hpMax="10000000"
+    <npc id="80354" templateId="23373" name="Mutated Fly" level="99" type="L2RaidBoss" atkRange="40" hpMax="20000000"
          hpReg="200"
          mpMax="6317468" mpReg="119.99" STR="130" CON="143" DEX="150" INT="144" WIT="135" MEN="147" exp="9339738544"
          sp="2241537"

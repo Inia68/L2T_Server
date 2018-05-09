@@ -24,12 +24,12 @@
         <itemDrop itemId="57" min="60000000" max="150000000" chance="100" /> <!-- Adena -->
     </npc>
     <!-- Baium -->
-    <npc id="29020" level="107" overrideDrops="true" hpMax="127008000" exp="9339738544" sp="2241537"
+    <npc id="29020" level="107" overrideDrops="true" hpMax="227008000" exp="9339738544" sp="2241537"
          pAtk="1284001" mAtk="620680" pDef="12119" mDef="4558">
         <!-- Epic Items -->
-        <itemDrop itemId="6658" min="5" max="10" chance="100" /> <!-- Baium's Ring -->
+        <itemDrop itemId="6658" min="10" max="20" chance="100" /> <!-- Baium's Ring -->
         <itemDrop itemId="37520" min="10" max="20" chance="100" /> <!-- Bottle of Baium's Soul -->
-        <itemDrop itemId="57" min="60000000" max="150000000" chance="100" /> <!-- Adena -->
+        <itemDrop itemId="57" min="90000000" max="150000000" chance="100" /> <!-- Adena -->
     </npc>
     <!-- Antharas -->
     <npc id="29068" level="107" overrideDrops="true" hpMax="1172612305" hpReg="1830.0" mpMax="3996001" mpReg="1000.0"

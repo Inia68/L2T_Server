@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
     <drop category="newPlayer">
-        <itemDrop itemId="4357" min="75236" max="91853" chance="100"/> <!-- Silver Shilen -->
+        <itemDrop itemId="4357" min="5236" max="9953" chance="100"/> <!-- Silver Shilen -->
         <itemDrop itemId="19467" min="1" max="1" chance="30"/> <!-- Yellow Soul Crystal Fragment (R99-grade) -->
         <itemDrop itemId="19468" min="1" max="1" chance="30"/> <!-- Teal Soul Crystal Fragment (R99-grade) -->
         <itemDrop itemId="19469" min="1" max="1" chance="30"/> <!-- Purple Soul Crystal Fragment (R99-grade) -->

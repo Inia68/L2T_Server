@@ -18,7 +18,7 @@
          collisionRadius="10" collisionHeight="24" fireRes="600" waterRes="600" windRes="600" earthRes="600"
          holyRes="600" darkRes="600"
          aiType="fighter" skillChance="15" clanRange="300">
-        <itemDrop itemId="4357" min="800" max="1200" chance="100" /> <!-- Silver Shilen -->
+        <itemDrop itemId="4357" min="50" max="90" chance="100" /> <!-- Silver Shilen -->
     </npc>
     <npc id="44003" templateId="25523" name="Golem" serverSideName="true" title="Tenkai Events" level="99"
          type="L2EventGolem"
