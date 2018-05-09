@@ -301,11 +301,7 @@ public class Elpy
 
     protected Elpy()
     {
-        if (state != State.INNACTIVE)
-        {
-            return;
-        }
-        openRegistration();
+
     }
 
     protected class Event implements Runnable
