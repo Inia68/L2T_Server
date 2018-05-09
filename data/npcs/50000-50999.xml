@@ -182,9 +182,9 @@
         <itemDrop itemId="57" min="100000000" max="300000000" chance="100" /> <!-- Adena -->
         <itemDrop itemId="37559" min="15" max="20" chance="80" /> <!-- Shiny Coin -->
         <itemDrop itemId="4356" min="20" max="50" chance="80" /> <!-- Gold Ein -->
-        <itemDrop itemId="36550" min="100" max="200" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
-        <itemDrop itemId="36545" min="100" max="200" chance="80" /> <!-- Durandil Wire -->
-        <itemDrop itemId="36565" min="100" max="200" chance="80" /> <!-- Exquisite Synthetic Cokes -->
+        <itemDrop itemId="36550" min="100" max="150" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
+        <itemDrop itemId="36545" min="100" max="150" chance="80" /> <!-- Durandil Wire -->
+        <itemDrop itemId="36565" min="100" max="150" chance="80" /> <!-- Exquisite Synthetic Cokes -->
     </npc>
     <npc id="80247" templateId="13190" name="Genievre" serverSideName="true" title="Marguerite's Mom" level="102" type="L2RaidBoss" atkRange="40"
          hpMax="100000000"
@@ -209,12 +209,12 @@
         <itemDrop itemId="34846" min="1" max="2" chance="100" /> <!-- Bard's Gift -->
         <itemDrop itemId="17236" min="1" max="2" chance="100" /> <!-- Victory Gift -->
         <itemDrop itemId="17237" min="1" max="2" chance="100" /> <!-- Luxury Victory Gift -->
-        <itemDrop itemId="57" min="100000000" max="200000000" chance="100" /> <!-- Adena -->
+        <itemDrop itemId="57" min="1000000000" max="2000000000" chance="100" /> <!-- Adena -->
         <itemDrop itemId="37559" min="10" max="15" chance="80" /> <!-- Shiny Coin -->
         <itemDrop itemId="4356" min="10" max="50" chance="80" /> <!-- Gold Ein -->
-        <itemDrop itemId="36550" min="100" max="200" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
-        <itemDrop itemId="36545" min="100" max="200" chance="80" /> <!-- Durandil Wire -->
-        <itemDrop itemId="36565" min="100" max="200" chance="80" /> <!-- Exquisite Synthetic Cokes -->
+        <itemDrop itemId="36550" min="100" max="150" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
+        <itemDrop itemId="36545" min="100" max="150" chance="80" /> <!-- Durandil Wire -->
+        <itemDrop itemId="36565" min="100" max="150" chance="80" /> <!-- Exquisite Synthetic Cokes -->
     </npc>
     <npc id="80248" templateId="13190" name="Quentin" serverSideName="true" title="Marguerite's Brother" level="110" type="L2RaidBoss" atkRange="40"
          hpMax="50000000"
@@ -239,12 +239,12 @@
         <itemDrop itemId="34846" min="1" max="2" chance="100" /> <!-- Bard's Gift -->
         <itemDrop itemId="17236" min="1" max="2" chance="100" /> <!-- Victory Gift -->
         <itemDrop itemId="17237" min="1" max="2" chance="100" /> <!-- Luxury Victory Gift -->
-        <itemDrop itemId="57" min="1000000" max="10000000" chance="100" /> <!-- Adena -->
+        <itemDrop itemId="57" min="10000000" max="100000000" chance="100" /> <!-- Adena -->
         <itemDrop itemId="37559" min="5" max="15" chance="90" /> <!-- Shiny Coin -->
         <itemDrop itemId="4356" min="5" max="15" chance="80" /> <!-- Gold Einhasad -->
-        <itemDrop itemId="36550" min="100" max="200" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
-        <itemDrop itemId="36545" min="100" max="200" chance="80" /> <!-- Durandil Wire -->
-        <itemDrop itemId="36565" min="100" max="200" chance="80" /> <!-- Exquisite Synthetic Cokes -->
+        <itemDrop itemId="36550" min="100" max="150" chance="80" /> <!-- Weapon Fragment (Top-grade) -->
+        <itemDrop itemId="36545" min="100" max="150" chance="80" /> <!-- Durandil Wire -->
+        <itemDrop itemId="36565" min="100" max="150" chance="80" /> <!-- Exquisite Synthetic Cokes -->
     </npc>
     <npc id="91000" templateId="13190" name="Box Npc" serverSideName="true" level="99" type="L2Npc" atkRange="40" hpMax="14611" hpReg="11.42"
          mpMax="3046"
@@ -304,7 +304,7 @@
         <!-- <itemDrop itemId="36414" min="100" max="200" chance="100" /> --> <!-- Dragon Claw -->
         <itemDrop itemId="57" min="500000000" max="500000000" chance="100" /> <!-- Adena -->
         <itemDrop itemId="37559" min="50" max="100" chance="100" /> <!-- Shiny Coin -->
-        <itemDrop itemId="4356" min="50" max="125" chance="70" /> <!-- Gold Ein -->
+        <itemDrop itemId="4356" min="50" max="150" chance="70" /> <!-- Gold Ein -->
         <itemDrop itemId="46193" min="1" max="2" chance="100" /> <!-- P.Reflect -->
         <itemDrop itemId="46194" min="1" max="2" chance="100" /> <!-- M.Reflect -->
     </npc>
@@ -331,7 +331,7 @@
         <!--   <itemDrop itemId="36414" min="200" max="325" chance="100" /> --> <!-- Dragon Claw -->
         <itemDrop itemId="57" min="500000000" max="900000000" chance="100" /> <!-- Adena -->
         <itemDrop itemId="37559" min="100" max="250" chance="100" /> <!-- Shiny Coin -->
-        <itemDrop itemId="4356" min="50" max="125" chance="70" /> <!-- Gold Ein -->
+        <itemDrop itemId="4356" min="50" max="150" chance="70" /> <!-- Gold Ein -->
         <itemDrop itemId="46193" min="1" max="2" chance="100" /> <!-- P.Reflect -->
         <itemDrop itemId="46194" min="1" max="2" chance="100" /> <!-- M.Reflect -->
     </npc>
