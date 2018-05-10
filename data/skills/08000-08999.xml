@@ -10551,16 +10551,16 @@
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <for>
-            <addPercent stat="pvpPhysDmg" val="50" />
-            <addPercent stat="pvpMagicalDmg" val="50" />
-            <addPercent stat="pvpPhysSkillsDmg" val="50" />
-            <addPercent stat="maxHp" val="100" />
-            <addPercent stat="maxMp" val="100" />
-            <addPercent stat="maxCp" val="100" />
-            <addPercent stat="pAtkSpd" val="100" />
-            <add stat="rCrit" val="500" />
-            <addPercent stat="pSkillCritRate" val="50" />
-            <addPercent stat="pSkillCritDmg" val="50" />
+            <addPercent stat="pvpPhysDmg" val="40" />
+            <addPercent stat="pvpMagicalDmg" val="40" />
+            <addPercent stat="pvpPhysSkillsDmg" val="40" />
+            <addPercent stat="maxHp" val="80" />
+            <addPercent stat="maxMp" val="80" />
+            <addPercent stat="maxCp" val="80" />
+            <addPercent stat="pAtkSpd" val="80" />
+            <add stat="rCrit" val="250" />
+            <addPercent stat="pSkillCritRate" val="40" />
+            <addPercent stat="pSkillCritDmg" val="40" />
             <addPercent stat="pAtk-dragons" val="300" />
         </for>
     </skill>
@@ -10589,16 +10589,16 @@
         <set name="skillType" val="BUFF" />
         <set name="operateType" val="OP_PASSIVE" />
         <for>
-            <addPercent stat="pvpPhysDmg" val="50" />
-            <addPercent stat="pvpMagicalDmg" val="50" />
-            <addPercent stat="pvpPhysSkillsDmg" val="50" />
-            <addPercent stat="maxHp" val="100" />
-            <addPercent stat="maxMp" val="100" />
-            <addPercent stat="maxCp" val="100" />
-            <addPercent stat="mAtkSpd" val="100" />
-            <add stat="mCritRate" val="500" />
-            <addPercentBase stat="mCritRate" val="50" />
-            <addPercent stat="mCritDmg" val="50" />
+            <addPercent stat="pvpPhysDmg" val="40" />
+            <addPercent stat="pvpMagicalDmg" val="40" />
+            <addPercent stat="pvpPhysSkillsDmg" val="40" />
+            <addPercent stat="maxHp" val="80" />
+            <addPercent stat="maxMp" val="80" />
+            <addPercent stat="maxCp" val="80" />
+            <addPercent stat="mAtkSpd" val="80" />
+            <add stat="mCritRate" val="250" />
+            <addPercentBase stat="mCritRate" val="40" />
+            <addPercent stat="mCritDmg" val="40" />
             <addPercent stat="pAtk-dragons" val="300" />
         </for>
     </skill>

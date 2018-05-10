@@ -51,7 +51,6 @@ import l2server.gameserver.util.Util;
 import l2server.log.Log;
 import l2server.util.Rnd;
 import l2server.util.StringUtil;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.util.logging.Level;
@@ -4700,7 +4699,7 @@ public final class Formulas
 			PlayerClass attackerClass = attacker.getActingPlayer().getCurrentClass();
 			if (target.getActingPlayer() != null) // PvP Damage
 			{
-				multiplier *= 0.99;
+				//multiplier *= 1;
 				//int attackerClanId = attacker.getActingPlayer().getClanId();
 				//L2Party attackerParty = attacker.getActingPlayer().getParty();
 				//int targetClanId = target.getActingPlayer().getClanId();
@@ -4746,37 +4745,37 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 1.2;
+							multiplier *= 1.0;
 							if (weapon != null && (weapon.getItemType() == L2WeaponType.BOW ||
 									weapon.getItemType() == L2WeaponType.CROSSBOW))
 							{
-								multiplier *= 0.3;
+								multiplier *= 0.9;
 							}
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 0.95;
+							multiplier *= 1.0;
 							break;
 						case 141: // Othell Rogue
 							if (weapon != null && (weapon.getItemType() == L2WeaponType.DAGGER ||
 									weapon.getItemType() == L2WeaponType.DUALDAGGER))
 							{
-								multiplier *= 1.2;
+								multiplier *= 1.0;
 							}
 							break;
 						case 142: // Yul Archer
-							multiplier *= 1.05;
+							multiplier *= 1.0;
 							break;
 						case 143: // Feoh Wizard
-							multiplier *= 1.3;
+							multiplier *= 1.0;
 							break;
 						case 144: // Iss Enchanter
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 1.7;
+							multiplier *= 1.0;
 							break;
 						case 146: // Aeore Healer
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 					}
 				}
@@ -4784,27 +4783,28 @@ public final class Formulas
 				switch (attackerClass.getId())
 				{
 					case 152: // Tyrr Duelist
-						multiplier *= 0.9;
+						multiplier *= 1.0;
 						break;
 					case 166: // Feoh Archmage
-						multiplier *= 1.5;
+						multiplier *= 1.0;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 0.9;
+						multiplier *= 1.0;
 						break;
 					case 168: // Feoh Mystic Muse
-						multiplier *= 1.3;
+						multiplier *= 1.0;
 						break;
 					case 169: // Feoh Storm Screamer
-						multiplier *= 0.9;
+						multiplier *= 1.0;
 						break;
 					case 188: // Eviscerator
-						multiplier *= 1.2;
+						multiplier *= 1.0;
 						break;
 					case 189: // Sayha's Seer
-						multiplier *= 1.2;
+						multiplier *= 1.0;
 						break;
 				}
+
 
 				PlayerClass targetClass = target.getActingPlayer().getCurrentClass();
 				if (targetClass.getParent() != null && targetClass.getParent().getAwakeningClassId() > 0)
@@ -4813,28 +4813,28 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 0.8;
+							multiplier *= 1.0;
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 1.1;
+							multiplier *= 1.0;
 							break;
 						case 141: // Othell Rogue
-							multiplier *= 0.95;
+							multiplier *= 1.0;
 							break;
 						case 142: // Yul Archer
-							//multiplier *= 1.4;
+							multiplier *= 1.0;
 							break;
 						case 143: // Feoh Wizard
-							multiplier *= 0.85;
+							multiplier *= 1.0;
 							break;
 						case 144: // Iss Enchanter
-							//multiplier *= 1.8;
+							multiplier *= 1.0;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 0.85;
+							multiplier *= 1.0;
 							break;
 						case 146: // Aeore Healer
-							//multiplier *= 2.1;
+							multiplier *= 1.0;
 							break;
 					}
 				}
@@ -4842,19 +4842,20 @@ public final class Formulas
 				switch (targetClass.getId())
 				{
 					case 166: // Feoh Archmage
-						multiplier *= 0.8;
+						multiplier *= 1.0;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 1.2;
+						multiplier *= 1.0;
 						break;
 					case 188: // Eviscerator
-						//multiplier *= 0.8;
+						multiplier *= 1.0;
 						break;
 					case 189: // Sayha's Seer
-						//multiplier *= 1.4;
+						multiplier *= 1.0;
 						break;
 				}
 			}
+
 			else
 			// PvE Damage
 			{
@@ -4881,28 +4882,28 @@ public final class Formulas
 					switch (awakening)
 					{
 						case 139: // Sigel Knight
-							multiplier *= 1.6;
+							multiplier *= 1.0;
 							break;
 						case 140: // Tyrr Warrior
-							multiplier *= 0.9;
+							multiplier *= 1.0;
 							break;
 						case 141: //Othell Rogue
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 						case 142: //Yul Archer
-							multiplier *= 1.2;
+							multiplier *= 1.0;
 							break;
 						case 143: //Feoh Wizard
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 						case 144: // Iss Enchanter
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 						case 145: // Wynn Summoner
-							multiplier *= 1.5;
+							multiplier *= 1.0;
 							break;
 						case 146: // Aeore Healer
-							multiplier *= 2.3;
+							multiplier *= 1.0;
 							break;
 					}
 				}
@@ -4910,16 +4911,16 @@ public final class Formulas
 				switch (attackerClass.getId())
 				{
 					case 166: // Feoh Archmage
-						multiplier *= 1.4;
+						multiplier *= 1.0;
 						break;
 					case 167: // Feoh Soultaker
-						multiplier *= 0.9;
+						multiplier *= 1.0;
 						break;
 					case 188: // Eviscerator
 						multiplier *= 1.0;
 						break;
 					case 189: // Sayha's Seer
-						multiplier *= 1.3;
+						multiplier *= 1.0;
 						break;
 				}
 			}

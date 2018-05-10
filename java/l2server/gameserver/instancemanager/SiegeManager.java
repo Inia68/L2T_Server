@@ -139,8 +139,7 @@ public class SiegeManager
 		try
 		{
 			con = L2DatabaseFactory.getInstance().getConnection();
-			PreparedStatement statement =
-					con.prepareStatement("SELECT clan_id FROM siege_clans where clan_id=? and castle_id=?");
+			PreparedStatement statement = con.prepareStatement("SELECT clan_id FROM siege_clans where clan_id=? and castle_id=?");
 			statement.setInt(1, clan.getClanId());
 			statement.setInt(2, castleid);
 			ResultSet rs = statement.executeQuery();

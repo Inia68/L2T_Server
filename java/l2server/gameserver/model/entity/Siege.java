@@ -333,8 +333,7 @@ public class Siege implements Siegable
 							L2PcInstance player = member.getPlayerInstance();
 							if (player != null && player.isNoble())
 							{
-								HeroesManager.getInstance()
-										.setCastleTaken(player.getObjectId(), getCastle().getCastleId());
+								HeroesManager.getInstance().setCastleTaken(player.getObjectId(), getCastle().getCastleId());
 							}
 						}
 					}
