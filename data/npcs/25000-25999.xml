@@ -27710,108 +27710,13 @@
         <itemDrop itemId="36978" min="2" max="2" chance="100" /> <!-- Scroll: Enchant Hair Accessory -->
         <itemDrop itemId="36514" min="1" max="1" chance="100" /> <!-- Elcyum Crystal -->
         <itemDrop itemId="36979" min="2" max="2" chance="100" /> <!-- Life Stone: Hair Accessory -->
-        <itemDrop itemId="38031" min="1" max="1"
-                  chance="22.2222" /> <!-- Seraph Leather Leggings Crafting Pack - Light Armor -->
-        <itemDrop itemId="17397" min="1" max="1" chance="14.8148" /> <!-- Seraph Breastplate - Heavy Armor -->
-        <itemDrop itemId="17402" min="1" max="1" chance="14.8148" /> <!-- Seraph Leather Helmet - Light Armor -->
-        <itemDrop itemId="17405" min="1" max="1" chance="14.8148" /> <!-- Seraph Leather Gloves - Light Armor -->
-        <itemDrop itemId="17411" min="1" max="1" chance="14.8148" /> <!-- Seraph Shoes - Robe -->
-        <itemDrop itemId="38035" min="1" max="1" chance="14.8148" /> <!-- Seraph Tunic Crafting Pack - Robe -->
-        <itemDrop itemId="37076" min="1" max="1"
-                  chance="14.8148" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
-        <itemDrop itemId="17409" min="1" max="1" chance="11.1111" /> <!-- Seraph Stockings - Robe -->
-        <itemDrop itemId="17399" min="1" max="1" chance="11.1111" /> <!-- Seraph Gauntlets - Heavy Armor -->
-        <itemDrop itemId="17401" min="1" max="1" chance="11.1111" /> <!-- Seraph Shield - Heavy Armor -->
-        <itemDrop itemId="17406" min="1" max="1" chance="11.1111" /> <!-- Seraph Leather Boots - Light Armor -->
-        <itemDrop itemId="17410" min="1" max="1" chance="11.1111" /> <!-- Seraph Gloves - Robe -->
-        <itemDrop itemId="17407" min="1" max="1" chance="7.4074" /> <!-- Seraph Circlet - Robe -->
-        <itemDrop itemId="17403" min="1" max="1" chance="7.4074" /> <!-- Seraph Leather Armor - Light Armor -->
-        <itemDrop itemId="17412" min="1" max="1" chance="7.4074" /> <!-- Seraph Sigil - Robe -->
-        <itemDrop itemId="17398" min="1" max="1" chance="7.4074" /> <!-- Seraph Gaiters - Heavy Armor -->
-        <itemDrop itemId="17408" min="1" max="1" chance="7.4074" /> <!-- Seraph Tunic - Robe -->
-        <itemDrop itemId="17396" min="1" max="1" chance="7.4074" /> <!-- Seraph Helmet - Heavy Armor -->
-        <itemDrop itemId="17400" min="1" max="1" chance="7.4074" /> <!-- Seraph Boots - Heavy Armor -->
-        <itemDrop itemId="37071" min="1" max="1"
-                  chance="5.05999" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
-        <itemDrop itemId="37068" min="1" max="1"
-                  chance="5.036" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
-        <itemDrop itemId="37082" min="1" max="1"
-                  chance="5.036" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
-        <itemDrop itemId="37080" min="1" max="1"
-                  chance="5.03099" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
-        <itemDrop itemId="37073" min="1" max="1"
-                  chance="5.02" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
-        <itemDrop itemId="37069" min="1" max="1"
-                  chance="5.007" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
-        <itemDrop itemId="37074" min="1" max="1"
-                  chance="5.005" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
-        <itemDrop itemId="37079" min="1" max="1"
-                  chance="4.995" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
-        <itemDrop itemId="37072" min="1" max="1"
-                  chance="4.98499" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
-        <itemDrop itemId="37077" min="1" max="1"
-                  chance="4.978" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
-        <itemDrop itemId="37086" min="1" max="1"
-                  chance="4.971" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
-        <itemDrop itemId="37081" min="1" max="1"
-                  chance="4.965" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
-        <itemDrop itemId="37075" min="1" max="1"
-                  chance="4.959" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
-        <itemDrop itemId="37067" min="1" max="1"
-                  chance="4.95099" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
-        <itemDrop itemId="37070" min="1" max="1"
-                  chance="4.95" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
-        <itemDrop itemId="37083" min="1" max="1"
-                  chance="4.946" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
-        <itemDrop itemId="37085" min="1" max="1"
-                  chance="4.939" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
-        <itemDrop itemId="37078" min="1" max="1"
-                  chance="4.932" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
-        <itemDrop itemId="37084" min="1" max="1"
-                  chance="4.932" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
-        <itemDrop itemId="17404" min="1" max="1" chance="3.7037" /> <!-- Seraph Leather Leggings - Light Armor -->
-        <itemDrop itemId="38026" min="1" max="1" chance="3.638" /> <!-- Seraph Gauntlets Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38037" min="1" max="1" chance="3.637" /> <!-- Seraph Gloves Crafting Pack - Robe -->
-        <itemDrop itemId="38021" min="1" max="1" chance="3.63199" /> <!-- Specter Caster Crafting Pack -->
-        <itemDrop itemId="38014" min="1" max="1" chance="3.624" /> <!-- Specter Slasher Crafting Pack -->
-        <itemDrop itemId="38025" min="1" max="1" chance="3.614" /> <!-- Seraph Gaiters Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38034" min="1" max="1" chance="3.60899" /> <!-- Seraph Circlet Crafting Pack - Robe -->
-        <itemDrop itemId="38023" min="1" max="1" chance="3.608" /> <!-- Seraph Helmet Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38016" min="1" max="1" chance="3.59999" /> <!-- Specter Fighter Crafting Pack -->
-        <itemDrop itemId="38032" min="1" max="1"
-                  chance="3.592" /> <!-- Seraph Leather Gloves Crafting Pack - Light Armor -->
-        <itemDrop itemId="38012" min="1" max="1" chance="3.579" /> <!-- Specter Shaper Crafting Pack -->
-        <itemDrop itemId="38039" min="1" max="1" chance="3.568" /> <!-- Seraph Sigil Crafting Pack - Robe -->
-        <itemDrop itemId="38036" min="1" max="1" chance="3.568" /> <!-- Seraph Stockings Crafting Pack - Robe -->
-        <itemDrop itemId="38027" min="1" max="1" chance="3.566" /> <!-- Seraph Boots Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38017" min="1" max="1" chance="3.56399" /> <!-- Specter Stormer Crafting Pack -->
-        <itemDrop itemId="38020" min="1" max="1" chance="3.56" /> <!-- Specter Buster Crafting Pack -->
-        <itemDrop itemId="38022" min="1" max="1" chance="3.557" /> <!-- Specter Retributer Crafting Pack -->
-        <itemDrop itemId="38013" min="1" max="1" chance="3.552" /> <!-- Specter Cutter Crafting Pack -->
-        <itemDrop itemId="38018" min="1" max="1" chance="3.55" /> <!-- Specter Thrower Crafting Pack -->
-        <itemDrop itemId="38029" min="1" max="1"
-                  chance="3.549" /> <!-- Seraph Leather Helmet Crafting Pack - Light Armor -->
-        <itemDrop itemId="38033" min="1" max="1"
-                  chance="3.535" /> <!-- Seraph Leather Boots Crafting Pack - Light Armor -->
-        <itemDrop itemId="38038" min="1" max="1" chance="3.533" /> <!-- Seraph Shoes Crafting Pack - Robe -->
-        <itemDrop itemId="38030" min="1" max="1"
-                  chance="3.526" /> <!-- Seraph Leather Armor Crafting Pack - Light Armor -->
-        <itemDrop itemId="38019" min="1" max="1" chance="3.522" /> <!-- Specter Shooter Crafting Pack -->
-        <itemDrop itemId="38015" min="1" max="1" chance="3.514" /> <!-- Specter Avenger Crafting Pack -->
-        <itemDrop itemId="38028" min="1" max="1" chance="3.51" /> <!-- Seraph Shield Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38024" min="1" max="1"
-                  chance="3.508" /> <!-- Seraph Breastplate Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="17385" min="1" max="1" chance="1.419" /> <!-- Specter Avenger -->
-        <itemDrop itemId="17384" min="1" max="1" chance="1.404" /> <!-- Specter Slasher -->
-        <itemDrop itemId="17388" min="1" max="1" chance="1.402" /> <!-- Specter Thrower -->
-        <itemDrop itemId="17387" min="1" max="1" chance="1.396" /> <!-- Specter Stormer -->
-        <itemDrop itemId="17389" min="1" max="1" chance="1.385" /> <!-- Specter Shooter -->
-        <itemDrop itemId="17382" min="1" max="1" chance="1.376" /> <!-- Specter Shaper -->
-        <itemDrop itemId="17383" min="1" max="1" chance="1.356" /> <!-- Specter Cutter -->
-        <itemDrop itemId="17386" min="1" max="1" chance="1.3365" /> <!-- Specter Fighter -->
-        <itemDrop itemId="17391" min="1" max="1" chance="1.32599" /> <!-- Specter Caster -->
-        <itemDrop itemId="17390" min="1" max="1" chance="1.315" /> <!-- Specter Buster -->
-        <itemDrop itemId="17392" min="1" max="1" chance="1.3" /> <!-- Specter Retributer -->
+        <itemDrop itemId="37076" min="1" max="1" chance="14.8148" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
+        <itemDrop itemId="37071" min="1" max="1" chance="5.05999" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
+        <itemDrop itemId="37068" min="1" max="1" chance="5.036" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
+        <itemDrop itemId="37082" min="1" max="1" chance="5.036" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
+        <itemDrop itemId="37080" min="1" max="1" chance="5.03099" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
+        <itemDrop itemId="37078" min="1" max="1" chance="4.932" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
+        <itemDrop itemId="37084" min="1" max="1" chance="4.932" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
     </npc>
     <npc id="25943" name="Wind Cassius" title="Raid Boss" level="102" type="L2RaidBoss" atkRange="40" hpMax="20000000"
          hpReg="173.42"
@@ -27839,22 +27744,6 @@
         <itemDrop itemId="37073" min="1" max="1" chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
         <itemDrop itemId="37074" min="1" max="1" chance="5.058" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
         <itemDrop itemId="37083" min="1" max="1" chance="5.056" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
-        <itemDrop itemId="37070" min="1" max="1" chance="5.045" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
-        <itemDrop itemId="37085" min="1" max="1" chance="5.037" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
-        <itemDrop itemId="37069" min="1" max="1" chance="5.033" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
-        <itemDrop itemId="37080" min="1" max="1" chance="5.033" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
-        <itemDrop itemId="37079" min="1" max="1" chance="5.019" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
-        <itemDrop itemId="37084" min="1" max="1" chance="5.01199" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
-        <itemDrop itemId="37067" min="1" max="1" chance="5.005" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
-        <itemDrop itemId="37082" min="1" max="1" chance="4.997" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
-        <itemDrop itemId="37086" min="1" max="1" chance="4.987" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
-        <itemDrop itemId="37081" min="1" max="1" chance="4.982" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
-        <itemDrop itemId="37077" min="1" max="1" chance="4.97999" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
-        <itemDrop itemId="37072" min="1" max="1" chance="4.978" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
-        <itemDrop itemId="37071" min="1" max="1" chance="4.975" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
-        <itemDrop itemId="37068" min="1" max="1" chance="4.946" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
-        <itemDrop itemId="37075" min="1" max="1" chance="4.943" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
-        <itemDrop itemId="37076" min="1" max="1" chance="4.931" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
     </npc>
     <npc id="25944" name="Earth Terakan" title="Raid Boss" level="99" type="L2RaidBoss" atkRange="40" hpMax="15000000"
          hpReg="151.22101"
@@ -27881,14 +27770,6 @@
         <itemDrop itemId="37079" min="1" max="1" chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
         <itemDrop itemId="37077" min="1" max="1" chance="5.05699" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
         <itemDrop itemId="37069" min="1" max="1" chance="5.04599" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
-        <itemDrop itemId="37072" min="1" max="1" chance="5.045" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
-        <itemDrop itemId="37085" min="1" max="1" chance="5.041" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
-        <itemDrop itemId="37083" min="1" max="1" chance="5.041" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
-        <itemDrop itemId="37068" min="1" max="1" chance="5.022" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
-        <itemDrop itemId="37070" min="1" max="1" chance="5.02" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
-        <itemDrop itemId="37082" min="1" max="1" chance="5.007" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
-        <itemDrop itemId="37084" min="1" max="1" chance="4.997" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
-        <itemDrop itemId="37086" min="1" max="1" chance="4.947" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
     </npc>
     <npc id="25945" name="Megaloprepis" title="Raid Boss" level="98" type="L2RaidBoss" atkRange="40" hpMax="56685420"
          hpReg="248.04001"

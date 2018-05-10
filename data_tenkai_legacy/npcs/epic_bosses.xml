@@ -245,9 +245,9 @@
         <itemDrop itemId="57" min="7000000" max="11000000" chance="100" /> <!-- Adena -->
     </npc>
     <!-- Flaming Ladar -->
-    <npc id="25942" overrideDrops="true" />
+    <npc id="25942" overrideDrops="false" />
     <!-- Wind Cassius -->
-    <npc id="25943" overrideDrops="true" />
+    <npc id="25943" overrideDrops="false" />
     <!-- Earth Terakan -->
-    <npc id="25944" overrideDrops="true" />
+    <npc id="25944" overrideDrops="false" />
 </list>
