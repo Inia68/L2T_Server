@@ -1150,7 +1150,7 @@
         <itemDrop itemId="36563" min="1" max="1" chance="0.12464" /> <!-- Synthetic Cokes -->
         <itemDrop itemId="17527" min="1" max="1" chance="0.03" /> <!-- Scroll: Enchant Armor (R-grade) -->
     </npc>
-    <!-- <npc id="80350" templateId="27457" name="Scarecrow" title="Damage Dealer" level="99" type="L2RaidBoss" atkRange="0"
+    <npc id="80350" templateId="27457" name="Scarecrow" title="Damage Dealer" level="99" type="L2RaidBoss" atkRange="0"
          hpMax="191665744"
          hpReg="2536.0" mpMax="3025740" mpReg="1000.0" STR="50" CON="50" DEX="50" INT="50" WIT="50" MEN="50"
          exp="499688640"
@@ -1159,7 +1159,7 @@
          walkSpd="120" runSpd="300" isDebuffImmune="true" collisionRadius="10" collisionHeight="24" elemAtkType="0"
          elemAtkValue="600" fireRes="600"
          waterRes="600" windRes="600" earthRes="600" holyRes="600" darkRes="600" aiType="fighter">
-    </npc> -->
+    </npc>
     <npc id="80351" templateId="23368" name="Klein Soldier" level="99" type="L2RaidBoss" atkRange="40" hpMax="20000000"
          hpReg="200"
          mpMax="6317468" mpReg="119.99" STR="130" CON="143" DEX="150" INT="144" WIT="135" MEN="147" exp="9339738544"

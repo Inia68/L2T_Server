@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <list>
     <drop category="newPlayer">
-        <itemDrop itemId="4357" min="5236" max="9953" chance="100"/> <!-- Silver Shilen -->
+        <itemDrop itemId="4357" min="2236" max="5953" chance="100"/> <!-- Silver Shilen -->
         <itemDrop itemId="19467" min="1" max="1" chance="30"/> <!-- Yellow Soul Crystal Fragment (R99-grade) -->
         <itemDrop itemId="19468" min="1" max="1" chance="30"/> <!-- Teal Soul Crystal Fragment (R99-grade) -->
         <itemDrop itemId="19469" min="1" max="1" chance="30"/> <!-- Purple Soul Crystal Fragment (R99-grade) -->
@@ -45,7 +45,7 @@
         <itemDrop itemId="36515" min="3" max="5" chance="40"/> <!-- Elcyum -->
         <itemDrop itemId="36731" min="1" max="1" chance="10"/> <!-- Life Stone Instilled with Giants' Power -->
         <itemDrop itemId="30298" min="2" max="3" chance="60"/> <!-- Superior Giant's CoDEX - Mastery -->
-        <itemDrop itemId="46151" min="1" max="1" chance="20"/> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
+        <itemDrop itemId="46151" min="1" max="2" chance="20"/> <!-- Superior Giant's Codex - Mastery Chapter 1 -->
         <itemDrop itemId="35675" min="1" max="5" chance="100"/> <!-- High-grade Elixir of Life (R-grade) -->
         <itemDrop itemId="35676" min="1" max="5" chance="100"/> <!-- High-grade Elixir of Mind (R-grade) -->
         <itemDrop itemId="35677" min="1" max="5" chance="100"/> <!-- High-grade Elixir of CP (R-grade) -->

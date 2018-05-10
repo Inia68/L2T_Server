@@ -27835,109 +27835,26 @@
         <itemDrop itemId="36978" min="2" max="2" chance="71.4285" /> <!-- Scroll: Enchant Hair Accessory -->
         <itemDrop itemId="36514" min="2" max="2" chance="71.4285" /> <!-- Elcyum Crystal -->
         <itemDrop itemId="36979" min="2" max="2" chance="42.8571" /> <!-- Life Stone: Hair Accessory -->
-        <itemDrop itemId="17344" min="1" max="1" chance="18.48" /> <!-- Twilight Leather Helmet - Light Armor -->
-        <itemDrop itemId="17345" min="1" max="1" chance="18.23" /> <!-- Twilight Leather Armor - Light Armor -->
-        <itemDrop itemId="17347" min="1" max="1" chance="18.17" /> <!-- Twilight Leather Gloves - Light Armor -->
-        <itemDrop itemId="17348" min="1" max="1" chance="17.47" /> <!-- Twilight Leather Boots - Light Armor -->
-        <itemDrop itemId="17346" min="1" max="1" chance="17.22" /> <!-- Twilight Leather Leggings - Light Armor -->
-        <itemDrop itemId="17340" min="1" max="1" chance="15.74" /> <!-- Twilight Gaiters - Heavy Armor -->
-        <itemDrop itemId="17353" min="1" max="1" chance="15.57" /> <!-- Twilight Shoes - Robe -->
-        <itemDrop itemId="17354" min="1" max="1" chance="15.47" /> <!-- Twilight Sigil - Robe -->
-        <itemDrop itemId="17339" min="1" max="1" chance="15.4" /> <!-- Twilight Breastplate - Heavy Armor -->
-        <itemDrop itemId="17341" min="1" max="1" chance="15.3299" /> <!-- Twilight Gauntlets - Heavy Armor -->
-        <itemDrop itemId="17349" min="1" max="1" chance="15.28" /> <!-- Twilight Circlet - Robe -->
-        <itemDrop itemId="17352" min="1" max="1" chance="15.2" /> <!-- Twilight Gloves - Robe -->
-        <itemDrop itemId="17350" min="1" max="1" chance="15.12" /> <!-- Twilight Tunic - Robe -->
-        <itemDrop itemId="17342" min="1" max="1" chance="14.76" /> <!-- Twilight Boots - Heavy Armor -->
-        <itemDrop itemId="17351" min="1" max="1" chance="14.67" /> <!-- Twilight Stockings - Robe -->
-        <itemDrop itemId="17338" min="1" max="1" chance="14.4999" /> <!-- Twilight Helmet - Heavy Armor -->
-        <itemDrop itemId="17343" min="1" max="1" chance="14.44" /> <!-- Twilight Shield - Heavy Armor -->
-        <itemDrop itemId="37078" min="1" max="1"
-                  chance="5.07" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
-        <itemDrop itemId="37073" min="1" max="1"
-                  chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
-        <itemDrop itemId="37074" min="1" max="1"
-                  chance="5.058" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
-        <itemDrop itemId="37083" min="1" max="1"
-                  chance="5.056" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
-        <itemDrop itemId="37070" min="1" max="1"
-                  chance="5.045" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
-        <itemDrop itemId="37085" min="1" max="1"
-                  chance="5.037" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
-        <itemDrop itemId="37069" min="1" max="1"
-                  chance="5.033" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
-        <itemDrop itemId="37080" min="1" max="1"
-                  chance="5.033" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
-        <itemDrop itemId="37079" min="1" max="1"
-                  chance="5.019" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
-        <itemDrop itemId="37084" min="1" max="1"
-                  chance="5.01199" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
-        <itemDrop itemId="37067" min="1" max="1"
-                  chance="5.005" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
-        <itemDrop itemId="37082" min="1" max="1"
-                  chance="4.997" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
-        <itemDrop itemId="37086" min="1" max="1"
-                  chance="4.987" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
-        <itemDrop itemId="37081" min="1" max="1"
-                  chance="4.982" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
-        <itemDrop itemId="37077" min="1" max="1"
-                  chance="4.97999" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
+        <itemDrop itemId="37078" min="1" max="1" chance="5.07" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
+        <itemDrop itemId="37073" min="1" max="1" chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
+        <itemDrop itemId="37074" min="1" max="1" chance="5.058" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
+        <itemDrop itemId="37083" min="1" max="1" chance="5.056" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
+        <itemDrop itemId="37070" min="1" max="1" chance="5.045" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
+        <itemDrop itemId="37085" min="1" max="1" chance="5.037" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
+        <itemDrop itemId="37069" min="1" max="1" chance="5.033" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
+        <itemDrop itemId="37080" min="1" max="1" chance="5.033" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
+        <itemDrop itemId="37079" min="1" max="1" chance="5.019" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
+        <itemDrop itemId="37084" min="1" max="1" chance="5.01199" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
+        <itemDrop itemId="37067" min="1" max="1" chance="5.005" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
+        <itemDrop itemId="37082" min="1" max="1" chance="4.997" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
+        <itemDrop itemId="37086" min="1" max="1" chance="4.987" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
+        <itemDrop itemId="37081" min="1" max="1" chance="4.982" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
+        <itemDrop itemId="37077" min="1" max="1" chance="4.97999" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
         <itemDrop itemId="37072" min="1" max="1" chance="4.978" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
-        <itemDrop itemId="37071" min="1" max="1"
-                  chance="4.975" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
-        <itemDrop itemId="37068" min="1" max="1"
-                  chance="4.946" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
-        <itemDrop itemId="37075" min="1" max="1"
-                  chance="4.943" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
-        <itemDrop itemId="37076" min="1" max="1"
-                  chance="4.931" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
-        <itemDrop itemId="17327" min="1" max="1" chance="4.6135" /> <!-- Apocalypse Avenger -->
-        <itemDrop itemId="17334" min="1" max="1" chance="4.604" /> <!-- Apocalypse Retributer -->
-        <itemDrop itemId="17326" min="1" max="1" chance="4.583" /> <!-- Apocalypse Slasher -->
-        <itemDrop itemId="17330" min="1" max="1" chance="4.575" /> <!-- Apocalypse Thrower -->
-        <itemDrop itemId="17332" min="1" max="1" chance="4.5675" /> <!-- Apocalypse Buster -->
-        <itemDrop itemId="17324" min="1" max="1" chance="4.558" /> <!-- Apocalypse Shaper -->
-        <itemDrop itemId="17329" min="1" max="1" chance="4.5435" /> <!-- Apocalypse Stormer -->
-        <itemDrop itemId="17325" min="1" max="1" chance="4.513" /> <!-- Apocalypse Cutter -->
-        <itemDrop itemId="17333" min="1" max="1" chance="4.5115" /> <!-- Apocalypse Caster -->
-        <itemDrop itemId="17328" min="1" max="1" chance="4.502" /> <!-- Apocalypse Fighter -->
-        <itemDrop itemId="17331" min="1" max="1" chance="4.4805" /> <!-- Apocalypse Shooter -->
-        <itemDrop itemId="38005" min="4" max="4" chance="3.64" /> <!-- Twilight Stockings Crafting Pack - Robe -->
-        <itemDrop itemId="37998" min="4" max="4"
-                  chance="3.638" /> <!-- Twilight Leather Helmet Crafting Pack - Light Armor -->
-        <itemDrop itemId="38000" min="4" max="4"
-                  chance="3.635" /> <!-- Twilight Leather Leggings Crafting Pack - Light Armor -->
-        <itemDrop itemId="37982" min="4" max="4" chance="3.634" /> <!-- Apocalypse Cutter Crafting Pack -->
-        <itemDrop itemId="37997" min="4" max="4" chance="3.598" /> <!-- Twilight Shield Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37985" min="4" max="4" chance="3.592" /> <!-- Apocalypse Fighter Crafting Pack -->
-        <itemDrop itemId="37984" min="4" max="4" chance="3.587" /> <!-- Apocalypse Avenger Crafting Pack -->
-        <itemDrop itemId="37990" min="4" max="4" chance="3.586" /> <!-- Apocalypse Caster Crafting Pack -->
-        <itemDrop itemId="37986" min="4" max="4" chance="3.586" /> <!-- Apocalypse Stormer Crafting Pack -->
-        <itemDrop itemId="38003" min="4" max="4" chance="3.571" /> <!-- Twilight Circlet Crafting Pack - Robe -->
-        <itemDrop itemId="38007" min="4" max="4" chance="3.568" /> <!-- Twilight Shoes Crafting Pack - Robe -->
-        <itemDrop itemId="37987" min="4" max="4" chance="3.568" /> <!-- Apocalypse Thrower Crafting Pack -->
-        <itemDrop itemId="38001" min="4" max="4"
-                  chance="3.567" /> <!-- Twilight Leather Gloves Crafting Pack - Light Armor -->
-        <itemDrop itemId="37988" min="4" max="4" chance="3.565" /> <!-- Apocalypse Shooter Crafting Pack -->
-        <itemDrop itemId="37993" min="4" max="4"
-                  chance="3.557" /> <!-- Twilight Breastplate Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38002" min="4" max="4"
-                  chance="3.557" /> <!-- Twilight Leather Boots Crafting Pack - Light Armor -->
-        <itemDrop itemId="37981" min="4" max="4" chance="3.554" /> <!-- Apocalypse Shaper Crafting Pack -->
-        <itemDrop itemId="37994" min="4" max="4" chance="3.552" /> <!-- Twilight Gaiters Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38008" min="4" max="4" chance="3.549" /> <!-- Twilight Sigil Crafting Pack - Robe -->
-        <itemDrop itemId="37992" min="4" max="4"
-                  chance="3.54799" /> <!-- Twilight Helmet Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37983" min="4" max="4" chance="3.547" /> <!-- Apocalypse Slasher Crafting Pack -->
-        <itemDrop itemId="38006" min="4" max="4" chance="3.544" /> <!-- Twilight Gloves Crafting Pack - Robe -->
-        <itemDrop itemId="37996" min="4" max="4" chance="3.543" /> <!-- Twilight Boots Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37999" min="4" max="4"
-                  chance="3.543" /> <!-- Twilight Leather Armor Crafting Pack - Light Armor -->
-        <itemDrop itemId="38004" min="4" max="4" chance="3.536" /> <!-- Twilight Tunic Crafting Pack - Robe -->
-        <itemDrop itemId="37995" min="4" max="4"
-                  chance="3.533" /> <!-- Twilight Gauntlets Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37991" min="4" max="4" chance="3.50299" /> <!-- Apocalypse Retributer Crafting Pack -->
-        <itemDrop itemId="37989" min="4" max="4" chance="3.501" /> <!-- Apocalypse Buster Crafting Pack -->
+        <itemDrop itemId="37071" min="1" max="1" chance="4.975" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
+        <itemDrop itemId="37068" min="1" max="1" chance="4.946" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
+        <itemDrop itemId="37075" min="1" max="1" chance="4.943" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
+        <itemDrop itemId="37076" min="1" max="1" chance="4.931" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
     </npc>
     <npc id="25944" name="Earth Terakan" title="Raid Boss" level="99" type="L2RaidBoss" atkRange="40" hpMax="15000000"
          hpReg="151.22101"
@@ -27961,108 +27878,17 @@
         <itemDrop itemId="36514" min="2" max="2" chance="40" /> <!-- Elcyum Crystal -->
         <itemDrop itemId="36979" min="2" max="2" chance="30" /> <!-- Life Stone: Hair Accessory -->
         <itemDrop itemId="36978" min="2" max="2" chance="30" /> <!-- Scroll: Enchant Hair Accessory -->
-        <itemDrop itemId="17348" min="1" max="1" chance="18.4599" /> <!-- Twilight Leather Boots - Light Armor -->
-        <itemDrop itemId="17344" min="1" max="1" chance="18.23" /> <!-- Twilight Leather Helmet - Light Armor -->
-        <itemDrop itemId="17346" min="1" max="1" chance="18.02" /> <!-- Twilight Leather Leggings - Light Armor -->
-        <itemDrop itemId="17347" min="1" max="1" chance="17.81" /> <!-- Twilight Leather Gloves - Light Armor -->
-        <itemDrop itemId="17345" min="1" max="1" chance="17.46" /> <!-- Twilight Leather Armor - Light Armor -->
-        <itemDrop itemId="17349" min="1" max="1" chance="15.46" /> <!-- Twilight Circlet - Robe -->
-        <itemDrop itemId="17351" min="1" max="1" chance="15.36" /> <!-- Twilight Stockings - Robe -->
-        <itemDrop itemId="17340" min="1" max="1" chance="15.35" /> <!-- Twilight Gaiters - Heavy Armor -->
-        <itemDrop itemId="17354" min="1" max="1" chance="15.07" /> <!-- Twilight Sigil - Robe -->
-        <itemDrop itemId="17350" min="1" max="1" chance="14.91" /> <!-- Twilight Tunic - Robe -->
-        <itemDrop itemId="17339" min="1" max="1" chance="14.79" /> <!-- Twilight Breastplate - Heavy Armor -->
-        <itemDrop itemId="17342" min="1" max="1" chance="14.78" /> <!-- Twilight Boots - Heavy Armor -->
-        <itemDrop itemId="17343" min="1" max="1" chance="14.66" /> <!-- Twilight Shield - Heavy Armor -->
-        <itemDrop itemId="17353" min="1" max="1" chance="14.51" /> <!-- Twilight Shoes - Robe -->
-        <itemDrop itemId="17338" min="1" max="1" chance="14.4999" /> <!-- Twilight Helmet - Heavy Armor -->
-        <itemDrop itemId="17352" min="1" max="1" chance="14.31" /> <!-- Twilight Gloves - Robe -->
-        <itemDrop itemId="17341" min="1" max="1" chance="14.27" /> <!-- Twilight Gauntlets - Heavy Armor -->
-        <itemDrop itemId="37079" min="1" max="1"
-                  chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
-        <itemDrop itemId="37081" min="1" max="1"
-                  chance="5.059" /> <!-- Monster Weapon Appearance Stone: Kanadis' Hand -->
-        <itemDrop itemId="37077" min="1" max="1"
-                  chance="5.05699" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
-        <itemDrop itemId="37069" min="1" max="1"
-                  chance="5.04599" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
+        <itemDrop itemId="37079" min="1" max="1" chance="5.06199" /> <!-- Monster Weapon Appearance Stone: Mimilead's Staff -->
+        <itemDrop itemId="37077" min="1" max="1" chance="5.05699" /> <!-- Monster Weapon Appearance Stone: Guillotine's Greatsword -->
+        <itemDrop itemId="37069" min="1" max="1" chance="5.04599" /> <!-- Monster Weapon Appearance Stone: Octavis' Sword -->
         <itemDrop itemId="37072" min="1" max="1" chance="5.045" /> <!-- Monster Weapon Appearance Stone: Tebot's Axe -->
-        <itemDrop itemId="37085" min="1" max="1"
-                  chance="5.041" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
-        <itemDrop itemId="37083" min="1" max="1"
-                  chance="5.041" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
-        <itemDrop itemId="37068" min="1" max="1"
-                  chance="5.022" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
-        <itemDrop itemId="37074" min="1" max="1"
-                  chance="5.021" /> <!-- Monster Weapon Appearance Stone: Tebot's Dual Blunt Weapon -->
-        <itemDrop itemId="37070" min="1" max="1"
-                  chance="5.02" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
-        <itemDrop itemId="37082" min="1" max="1"
-                  chance="5.007" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
-        <itemDrop itemId="37084" min="1" max="1"
-                  chance="4.997" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
-        <itemDrop itemId="37067" min="1" max="1"
-                  chance="4.993" /> <!-- Monster Weapon Appearance Stone: Theor's Sword -->
-        <itemDrop itemId="37071" min="1" max="1"
-                  chance="4.991" /> <!-- Monster Weapon Appearance Stone: Seknus' One-handed Magic Sword -->
-        <itemDrop itemId="37080" min="1" max="1"
-                  chance="4.991" /> <!-- Monster Weapon Appearance Stone: Satyr's Staff -->
-        <itemDrop itemId="37076" min="1" max="1"
-                  chance="4.986" /> <!-- Monster Weapon Appearance Stone: Drakos' Dual Dagger -->
-        <itemDrop itemId="37075" min="1" max="1"
-                  chance="4.974" /> <!-- Monster Weapon Appearance Stone: Drakos' Dagger -->
-        <itemDrop itemId="37078" min="1" max="1"
-                  chance="4.97" /> <!-- Monster Weapon Appearance Stone: Thesakar's Spear -->
-        <itemDrop itemId="37073" min="1" max="1"
-                  chance="4.948" /> <!-- Monster Weapon Appearance Stone: Glakias' Hammer -->
-        <itemDrop itemId="37086" min="1" max="1"
-                  chance="4.947" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
-        <itemDrop itemId="17329" min="1" max="1" chance="4.61499" /> <!-- Apocalypse Stormer -->
-        <itemDrop itemId="17326" min="1" max="1" chance="4.587" /> <!-- Apocalypse Slasher -->
-        <itemDrop itemId="17328" min="1" max="1" chance="4.558" /> <!-- Apocalypse Fighter -->
-        <itemDrop itemId="17324" min="1" max="1" chance="4.53799" /> <!-- Apocalypse Shaper -->
-        <itemDrop itemId="17331" min="1" max="1" chance="4.537" /> <!-- Apocalypse Shooter -->
-        <itemDrop itemId="17332" min="1" max="1" chance="4.537" /> <!-- Apocalypse Buster -->
-        <itemDrop itemId="17330" min="1" max="1" chance="4.53" /> <!-- Apocalypse Thrower -->
-        <itemDrop itemId="17333" min="1" max="1" chance="4.5115" /> <!-- Apocalypse Caster -->
-        <itemDrop itemId="17327" min="1" max="1" chance="4.51" /> <!-- Apocalypse Avenger -->
-        <itemDrop itemId="17334" min="1" max="1" chance="4.50699" /> <!-- Apocalypse Retributer -->
-        <itemDrop itemId="17325" min="1" max="1" chance="4.499" /> <!-- Apocalypse Cutter -->
-        <itemDrop itemId="37985" min="2" max="2" chance="3.66099" /> <!-- Apocalypse Fighter Crafting Pack -->
-        <itemDrop itemId="37994" min="2" max="2" chance="3.615" /> <!-- Twilight Gaiters Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37997" min="2" max="2" chance="3.611" /> <!-- Twilight Shield Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38001" min="2" max="2"
-                  chance="3.60899" /> <!-- Twilight Leather Gloves Crafting Pack - Light Armor -->
-        <itemDrop itemId="38000" min="2" max="2"
-                  chance="3.599" /> <!-- Twilight Leather Leggings Crafting Pack - Light Armor -->
-        <itemDrop itemId="37987" min="2" max="2" chance="3.598" /> <!-- Apocalypse Thrower Crafting Pack -->
-        <itemDrop itemId="37983" min="2" max="2" chance="3.598" /> <!-- Apocalypse Slasher Crafting Pack -->
-        <itemDrop itemId="37991" min="2" max="2" chance="3.588" /> <!-- Apocalypse Retributer Crafting Pack -->
-        <itemDrop itemId="37990" min="2" max="2" chance="3.579" /> <!-- Apocalypse Caster Crafting Pack -->
-        <itemDrop itemId="37982" min="2" max="2" chance="3.576" /> <!-- Apocalypse Cutter Crafting Pack -->
-        <itemDrop itemId="37984" min="2" max="2" chance="3.571" /> <!-- Apocalypse Avenger Crafting Pack -->
-        <itemDrop itemId="37986" min="2" max="2" chance="3.567" /> <!-- Apocalypse Stormer Crafting Pack -->
-        <itemDrop itemId="37998" min="2" max="2"
-                  chance="3.567" /> <!-- Twilight Leather Helmet Crafting Pack - Light Armor -->
-        <itemDrop itemId="37989" min="2" max="2" chance="3.554" /> <!-- Apocalypse Buster Crafting Pack -->
-        <itemDrop itemId="37992" min="2" max="2" chance="3.552" /> <!-- Twilight Helmet Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38007" min="2" max="2" chance="3.54799" /> <!-- Twilight Shoes Crafting Pack - Robe -->
-        <itemDrop itemId="38006" min="2" max="2" chance="3.546" /> <!-- Twilight Gloves Crafting Pack - Robe -->
-        <itemDrop itemId="38008" min="2" max="2" chance="3.546" /> <!-- Twilight Sigil Crafting Pack - Robe -->
-        <itemDrop itemId="37988" min="2" max="2" chance="3.545" /> <!-- Apocalypse Shooter Crafting Pack -->
-        <itemDrop itemId="37995" min="2" max="2"
-                  chance="3.545" /> <!-- Twilight Gauntlets Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37996" min="2" max="2" chance="3.543" /> <!-- Twilight Boots Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="38003" min="2" max="2" chance="3.531" /> <!-- Twilight Circlet Crafting Pack - Robe -->
-        <itemDrop itemId="37999" min="2" max="2"
-                  chance="3.53" /> <!-- Twilight Leather Armor Crafting Pack - Light Armor -->
-        <itemDrop itemId="38004" min="2" max="2" chance="3.53" /> <!-- Twilight Tunic Crafting Pack - Robe -->
-        <itemDrop itemId="37993" min="2" max="2"
-                  chance="3.528" /> <!-- Twilight Breastplate Crafting Pack - Heavy Armor -->
-        <itemDrop itemId="37981" min="2" max="2" chance="3.513" /> <!-- Apocalypse Shaper Crafting Pack -->
-        <itemDrop itemId="38005" min="2" max="2" chance="3.505" /> <!-- Twilight Stockings Crafting Pack - Robe -->
-        <itemDrop itemId="38002" min="2" max="2"
-                  chance="3.504" /> <!-- Twilight Leather Boots Crafting Pack - Light Armor -->
+        <itemDrop itemId="37085" min="1" max="1" chance="5.041" /> <!-- Monster Weapon Appearance Stone: Theor's Shield -->
+        <itemDrop itemId="37083" min="1" max="1" chance="5.041" /> <!-- Monster Weapon Appearance Stone: Centaur's Bow -->
+        <itemDrop itemId="37068" min="1" max="1" chance="5.022" /> <!-- Monster Weapon Appearance Stone: Sword of Corruption -->
+        <itemDrop itemId="37070" min="1" max="1" chance="5.02" /> <!-- Monster Weapon Appearance Stone: Tegaffe's Dualsword -->
+        <itemDrop itemId="37082" min="1" max="1" chance="5.007" /> <!-- Monster Weapon Appearance Stone: Kanadis' Bow -->
+        <itemDrop itemId="37084" min="1" max="1" chance="4.997" /> <!-- Monster Weapon Appearance Stone: Spicula's Crossbow -->
+        <itemDrop itemId="37086" min="1" max="1" chance="4.947" /> <!-- Monster Weapon Appearance Stone: Shield of Corruption -->
     </npc>
     <npc id="25945" name="Megaloprepis" title="Raid Boss" level="98" type="L2RaidBoss" atkRange="40" hpMax="56685420"
          hpReg="248.04001"
