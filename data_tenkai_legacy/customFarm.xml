@@ -88,7 +88,6 @@
                 defMultiplier="50" overrideDrops="true"
                 overrideLevels="105"> <!-- Lvl: 99 | Strength: 15785 | Exp Score: 0 -->
         <itemDrop itemId="57" min="5000000" max="10000000" chance="100" /> <!-- Adena -->
-        <itemDrop itemId="36414" min="1" max="5" chance="100" /> <!-- Dragon Claw -->
         <itemDrop itemId="14720" min="1" max="5" chance="100" /> <!-- Event - Apiga -->
         <itemDrop itemId="36515" min="1" max="5" chance="75" /> <!-- Elcyum -->
         <itemDrop itemId="4356" min="1" max="1" chance="100" /> <!-- Gold Einhasad -->
