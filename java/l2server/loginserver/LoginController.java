@@ -664,22 +664,23 @@ public class LoginController
 			rset.close();
 			statement.close();
 
-			// if account doesnt exists
+			// if account doesnt exidsts
 			if (expected == null)
 			{
-				if (Config.AUTO_CREATE_ACCOUNTS)
+				if (true)
 				{
 					if (user.length() >= 2 && user.length() <= 14)
 					{
-						statement = con.prepareStatement(
-								"INSERT INTO accounts (login,password,lastactive,accessLevel,lastIP) values(?,?,?,?,?)");
+
+
+						statement = con.prepareStatement("INSERT INTO accounts (login,password,lastactive,accessLevel,lastIP, lastDimensionId) values(?,?,?,?,?,?)");
 						statement.setString(1, user);
 						statement.setString(2, Base64.encodeBytes(hash));
 						statement.setLong(3, System.currentTimeMillis());
 						statement.setInt(4, 0);
 						statement.setString(5, address.getHostAddress());
+						statement.setInt(6, 0);
 						statement.execute();
-						statement.close();
 
 						if (Config.LOG_LOGIN_CONTROLLER)
 						{
