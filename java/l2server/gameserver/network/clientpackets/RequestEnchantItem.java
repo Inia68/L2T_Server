@@ -191,16 +191,17 @@ public final class RequestEnchantItem extends L2GameClientPacket
 
 			if (success)
 			{
-				// success
-				int newEnchantLevel = item.getEnchantLevel() + 1;
-				if (Config.isServer(Config.TENKAI_LEGACY) && newEnchantLevel < 16)
-				{
-					newEnchantLevel = 16;
-				}
 
-				item.setEnchantLevel(newEnchantLevel);
-				item.updateDatabase();
-				activeChar.sendPacket(new EnchantResult(0, 0, 0, item.getEnchantLevel()));
+				// success
+				//int newEnchantLevel = item.getEnchantLevel() + 1;
+				//if (Config.isServer(Config.TENKAI_LEGACY) && newEnchantLevel < 16)
+				//{
+				//	newEnchantLevel = 16;
+				//}
+//
+				//item.setEnchantLevel(newEnchantLevel);
+				//item.updateDatabase();
+				//activeChar.sendPacket(new EnchantResult(0, 0, 0, item.getEnchantLevel()));
 
 				if (Config.LOG_ITEM_ENCHANTS)
 				{

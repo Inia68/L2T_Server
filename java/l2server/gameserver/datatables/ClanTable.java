@@ -240,7 +240,6 @@ public class ClanTable
 		if (Config.isServer(Config.TENKAI_LEGACY))
 		{
 			clan.changeLevel(10);
-			clan.addReputationScore(50000, true);
 
 			//Add the skills
 			while (PledgeSkillTree.getInstance().getAvailableSkills(player).length != 0)
